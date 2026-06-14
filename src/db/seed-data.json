@@ -1,0 +1,5002 @@
+[
+    {
+      "brand": "Patagonia",
+      "item_name": "Tech Web Belt",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 34,
+      "platform": "poshmark",
+      "sold_date": "2024-11-12",
+      "size": "OS"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "Baseball Cap",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 59,
+      "platform": "ebay",
+      "sold_date": "2024-06-13",
+      "size": "S/M"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Punk Collage Shirt",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 38,
+      "platform": "poshmark",
+      "sold_date": "2024-05-29",
+      "size": "L"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Rugby Stripe Shirt",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 22,
+      "platform": "grailed",
+      "sold_date": "2024-10-18",
+      "size": "L"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Athletics Fleece Sweatpant",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 87,
+      "platform": "ebay",
+      "sold_date": "2024-06-20",
+      "size": "28"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Atom LT Hoody",
+      "category": "outerwear",
+      "condition": "new",
+      "sold_price": 732,
+      "platform": "depop",
+      "sold_date": "2024-06-11",
+      "size": "M"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Bandana",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 16,
+      "platform": "ebay",
+      "sold_date": "2024-09-14",
+      "size": "S/M"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Cotton Twill Shorts",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 79,
+      "platform": "depop",
+      "sold_date": "2024-04-09",
+      "size": "29"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Acrylic Watch Hat",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 62,
+      "platform": "poshmark",
+      "sold_date": "2024-10-01",
+      "size": "S/M"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Whisper Cotton Crewneck Tee",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 64,
+      "platform": "depop",
+      "sold_date": "2024-08-26",
+      "size": "XL"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Chain Shoulder Bag",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 20,
+      "platform": "poshmark",
+      "sold_date": "2024-06-03",
+      "size": "OS"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Ghost Piece Down Vest",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 220,
+      "platform": "depop",
+      "sold_date": "2024-10-08",
+      "size": "L"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Phase AR Headband",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 232,
+      "platform": "depop",
+      "sold_date": "2024-09-15",
+      "size": "OS"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Hooded Yacht Jacket",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 50,
+      "platform": "ebay",
+      "sold_date": "2024-12-03",
+      "size": "M"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Work Boot",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 24,
+      "platform": "poshmark",
+      "sold_date": "2024-10-04",
+      "size": "8"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Vintage Graphic Tee",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 39,
+      "platform": "grailed",
+      "sold_date": "2024-07-31",
+      "size": "XS"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Waterproof Hiking Boot",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 732,
+      "platform": "depop",
+      "sold_date": "2024-12-01",
+      "size": "12"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "V-Neck Knit Sweater",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 28,
+      "platform": "depop",
+      "sold_date": "2024-02-19",
+      "size": "M"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Fleetwith Pants",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 68,
+      "platform": "depop",
+      "sold_date": "2024-06-30",
+      "size": "30"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Ribbed Mock-Neck Top",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 12,
+      "platform": "grailed",
+      "sold_date": "2024-04-20",
+      "size": "M"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Nash Face T-Shirt",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 209,
+      "platform": "depop",
+      "sold_date": "2024-03-22",
+      "size": "S"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "Classic Fit Polo Shirt",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 163,
+      "platform": "grailed",
+      "sold_date": "2024-09-01",
+      "size": "S"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "Stretch Slim Fit Jeans",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 46,
+      "platform": "depop",
+      "sold_date": "2024-11-20",
+      "size": "29"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Colorblock Anorak Jacket",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 101,
+      "platform": "grailed",
+      "sold_date": "2024-12-29",
+      "size": "XL"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Henley Thermal",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 48,
+      "platform": "ebay",
+      "sold_date": "2024-10-23",
+      "size": "XS"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Sock-Style Ankle Boot",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 610,
+      "platform": "grailed",
+      "sold_date": "2024-11-09",
+      "size": "8"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Merino Wool-Blend Cardigan",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 452,
+      "platform": "poshmark",
+      "sold_date": "2024-06-18",
+      "size": "L"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "Monogram Belt",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 24,
+      "platform": "depop",
+      "sold_date": "2024-08-09",
+      "size": "S/M"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Ripstop Cargo Pants",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 111,
+      "platform": "depop",
+      "sold_date": "2024-11-28",
+      "size": "29"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Accelerate Short",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 119,
+      "platform": "poshmark",
+      "sold_date": "2024-07-07",
+      "size": "28"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Fleece Joggers",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 669,
+      "platform": "poshmark",
+      "sold_date": "2024-11-06",
+      "size": "32"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "x Clarks Wallabee",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 184,
+      "platform": "grailed",
+      "sold_date": "2024-04-29",
+      "size": "10"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Acrylic Watch Hat",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 17,
+      "platform": "ebay",
+      "sold_date": "2024-01-01",
+      "size": "OS"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Ribcage Wide Leg Jeans",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 24,
+      "platform": "ebay",
+      "sold_date": "2024-07-16",
+      "size": "34"
+    },
+    {
+      "brand": "Reformation",
+      "item_name": "Mini Raffia Bag",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 26,
+      "platform": "poshmark",
+      "sold_date": "2024-04-07",
+      "size": "OS"
+    },
+    {
+      "brand": "Reformation",
+      "item_name": "Platform Clog",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 115,
+      "platform": "ebay",
+      "sold_date": "2024-04-18",
+      "size": "10"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Cotton Twill Shorts",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 33,
+      "platform": "poshmark",
+      "sold_date": "2024-11-23",
+      "size": "30"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Brushed Canvas Overshirt",
+      "category": "outerwear",
+      "condition": "new",
+      "sold_price": 223,
+      "platform": "poshmark",
+      "sold_date": "2024-03-12",
+      "size": "XS"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "BFP Backpack",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 69,
+      "platform": "grailed",
+      "sold_date": "2024-11-02",
+      "size": "S/M"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Linen Blend Straight-Leg Pants",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 59,
+      "platform": "ebay",
+      "sold_date": "2024-03-04",
+      "size": "28"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Bolzter Biker Boot",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 134,
+      "platform": "poshmark",
+      "sold_date": "2024-03-02",
+      "size": "9"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "RL Leather Loafer",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 59,
+      "platform": "grailed",
+      "sold_date": "2024-10-24",
+      "size": "11"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Thermoball Eco Hoody",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 94,
+      "platform": "ebay",
+      "sold_date": "2024-06-18",
+      "size": "XL"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Nine Trails Shorts",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 136,
+      "platform": "grailed",
+      "sold_date": "2024-06-05",
+      "size": "29"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Duck Bib Overalls",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 83,
+      "platform": "depop",
+      "sold_date": "2024-06-06",
+      "size": "34"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Waist Pack",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 29,
+      "platform": "poshmark",
+      "sold_date": "2024-02-09",
+      "size": "OS"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "A2B Cap",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 219,
+      "platform": "depop",
+      "sold_date": "2024-09-30",
+      "size": "S/M"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Sunshade Tech Tee",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 62,
+      "platform": "grailed",
+      "sold_date": "2024-05-27",
+      "size": "XS"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Stretch-Knit Gloves",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 177,
+      "platform": "depop",
+      "sold_date": "2024-01-02",
+      "size": "S/M"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Flashdry Long-Sleeve Top",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 128,
+      "platform": "grailed",
+      "sold_date": "2024-10-11",
+      "size": "L"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Cropped Crochet Top",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 131,
+      "platform": "depop",
+      "sold_date": "2024-02-23",
+      "size": "M"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Impact Run Luminous Jacket",
+      "category": "outerwear",
+      "condition": "new",
+      "sold_price": 272,
+      "platform": "poshmark",
+      "sold_date": "2024-10-05",
+      "size": "M"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Tech Web Belt",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 160,
+      "platform": "grailed",
+      "sold_date": "2024-03-06",
+      "size": "OS"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Stripe Poplin Crop Top",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 75,
+      "platform": "grailed",
+      "sold_date": "2024-08-16",
+      "size": "S"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "x New Balance 574",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 223,
+      "platform": "ebay",
+      "sold_date": "2024-08-07",
+      "size": "11"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Impact Run Luminous Jacket",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 101,
+      "platform": "ebay",
+      "sold_date": "2024-09-11",
+      "size": "M"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "Baseball Cap",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 68,
+      "platform": "poshmark",
+      "sold_date": "2024-07-22",
+      "size": "M/L"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Logo Graphic Tee",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 27,
+      "platform": "depop",
+      "sold_date": "2024-06-25",
+      "size": "L"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Wander Sun Tee",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 202,
+      "platform": "poshmark",
+      "sold_date": "2024-06-21",
+      "size": "L"
+    },
+    {
+      "brand": "Nike",
+      "item_name": "Training Gloves",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 72,
+      "platform": "depop",
+      "sold_date": "2024-04-15",
+      "size": "M/L"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "1080v12",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 88,
+      "platform": "ebay",
+      "sold_date": "2024-01-01",
+      "size": "8"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Atom LT Hoody",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 344,
+      "platform": "grailed",
+      "sold_date": "2024-10-25",
+      "size": "L"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "6-Inch Waterproof Boot",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 35,
+      "platform": "ebay",
+      "sold_date": "2024-06-13",
+      "size": "12"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Knit Beanie",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 60,
+      "platform": "grailed",
+      "sold_date": "2024-06-28",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Floral Print Sock",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 30,
+      "platform": "grailed",
+      "sold_date": "2024-01-26",
+      "size": "S/M"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Patch Logo Cap",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 109,
+      "platform": "poshmark",
+      "sold_date": "2024-10-14",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Maka 2 Wallet",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 78,
+      "platform": "ebay",
+      "sold_date": "2024-10-05",
+      "size": "S/M"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Palisade Pant",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 352,
+      "platform": "ebay",
+      "sold_date": "2024-10-15",
+      "size": "30"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Naga Glove",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 167,
+      "platform": "poshmark",
+      "sold_date": "2024-12-26",
+      "size": "OS"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Transport Tote",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 36,
+      "platform": "depop",
+      "sold_date": "2024-05-26",
+      "size": "OS"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Down Sweater Hoody",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 259,
+      "platform": "grailed",
+      "sold_date": "2024-01-11",
+      "size": "XS"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Stan Smith",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 28,
+      "platform": "poshmark",
+      "sold_date": "2024-12-23",
+      "size": "11"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Colorblock Anorak Jacket",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 44,
+      "platform": "ebay",
+      "sold_date": "2024-02-22",
+      "size": "L"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Arc Sweatpants",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 94,
+      "platform": "poshmark",
+      "sold_date": "2024-02-12",
+      "size": "30"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Originals Ringer Tee",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 94,
+      "platform": "ebay",
+      "sold_date": "2024-09-13",
+      "size": "L"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Classic Chelsea Boot",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 180,
+      "platform": "depop",
+      "sold_date": "2024-02-14",
+      "size": "8"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Athletics Jacket",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 139,
+      "platform": "depop",
+      "sold_date": "2024-03-04",
+      "size": "XS"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Breezy Boho Blouse",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 98,
+      "platform": "grailed",
+      "sold_date": "2024-09-15",
+      "size": "XL"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Logo Sweatshirt",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 122,
+      "platform": "ebay",
+      "sold_date": "2024-12-31",
+      "size": "XL"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Jadon Platform Boot",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 208,
+      "platform": "ebay",
+      "sold_date": "2024-01-28",
+      "size": "9"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "990v5",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 134,
+      "platform": "ebay",
+      "sold_date": "2024-10-24",
+      "size": "12"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "720 High-Rise Super Skinny Jeans",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 52,
+      "platform": "poshmark",
+      "sold_date": "2024-09-05",
+      "size": "34"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Exploration Convertible Pants",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 271,
+      "platform": "grailed",
+      "sold_date": "2024-11-10",
+      "size": "29"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Footwear Terrebonne Slip-On",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 106,
+      "platform": "depop",
+      "sold_date": "2024-01-28",
+      "size": "10"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Canvas Tote Bag",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 63,
+      "platform": "depop",
+      "sold_date": "2024-12-22",
+      "size": "OS"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Ultraboost 22",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 127,
+      "platform": "ebay",
+      "sold_date": "2024-12-28",
+      "size": "11"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Contrast Stitch Logo Tee",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 77,
+      "platform": "poshmark",
+      "sold_date": "2024-12-05",
+      "size": "XL"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Relaxed-Fit Wide Leg Trousers",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 133,
+      "platform": "ebay",
+      "sold_date": "2024-10-11",
+      "size": "30"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Leather Loafers",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 26,
+      "platform": "grailed",
+      "sold_date": "2024-02-08",
+      "size": "12"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "The Perfect Vintage Jeans",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 89,
+      "platform": "ebay",
+      "sold_date": "2024-12-28",
+      "size": "29"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Apex Bionic Jacket",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 97,
+      "platform": "ebay",
+      "sold_date": "2024-06-10",
+      "size": "L"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Acrylic Watch Hat",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 46,
+      "platform": "depop",
+      "sold_date": "2024-05-24",
+      "size": "OS"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "Linen Camp Shirt",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 37,
+      "platform": "depop",
+      "sold_date": "2024-06-17",
+      "size": "M"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Duck Active Jacket",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 118,
+      "platform": "grailed",
+      "sold_date": "2024-07-23",
+      "size": "L"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Stripe Pocket Tee",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 155,
+      "platform": "grailed",
+      "sold_date": "2024-01-14",
+      "size": "M"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "6-Inch Waterproof Boot",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 57,
+      "platform": "poshmark",
+      "sold_date": "2024-12-19",
+      "size": "12"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Packable Anorak Jacket",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 22,
+      "platform": "poshmark",
+      "sold_date": "2024-01-26",
+      "size": "M"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Logo Beanie",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 33,
+      "platform": "poshmark",
+      "sold_date": "2024-07-29",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "AEROREADY Training Tee",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 109,
+      "platform": "poshmark",
+      "sold_date": "2024-12-14",
+      "size": "L"
+    },
+    {
+      "brand": "Nike",
+      "item_name": "Sportswear Woven Track Pants",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 115,
+      "platform": "grailed",
+      "sold_date": "2024-01-08",
+      "size": "30"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Rho LT Zip Neck",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 454,
+      "platform": "ebay",
+      "sold_date": "2024-01-29",
+      "size": "XL"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Regular Fit Chino",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 499,
+      "platform": "depop",
+      "sold_date": "2024-10-12",
+      "size": "30"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Pointed-Toe Flats",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 45,
+      "platform": "grailed",
+      "sold_date": "2024-07-10",
+      "size": "10"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Mini Leather Tote",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 144,
+      "platform": "poshmark",
+      "sold_date": "2024-05-28",
+      "size": "S/M"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Gazelle Bold",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 25,
+      "platform": "ebay",
+      "sold_date": "2024-07-23",
+      "size": "10"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Beaded Wrap Bracelet",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 81,
+      "platform": "ebay",
+      "sold_date": "2024-02-05",
+      "size": "OS"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "Water-Repellent Down Jacket",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 174,
+      "platform": "ebay",
+      "sold_date": "2024-05-21",
+      "size": "L"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Canvas Work Pants",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 68,
+      "platform": "depop",
+      "sold_date": "2024-05-16",
+      "size": "34"
+    },
+    {
+      "brand": "Nike",
+      "item_name": "Gym Sack",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 41,
+      "platform": "ebay",
+      "sold_date": "2024-03-16",
+      "size": "M/L"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "512 Slim Taper Jeans",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 93,
+      "platform": "depop",
+      "sold_date": "2024-06-20",
+      "size": "34"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Classic Trefoil Cap",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 32,
+      "platform": "depop",
+      "sold_date": "2024-11-25",
+      "size": "M/L"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Shelled Synchilla Jacket",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 281,
+      "platform": "grailed",
+      "sold_date": "2024-12-17",
+      "size": "S"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Signature Tape Logo Bomber",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 88,
+      "platform": "poshmark",
+      "sold_date": "2024-06-16",
+      "size": "XL"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Atom LT Hoody",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 509,
+      "platform": "poshmark",
+      "sold_date": "2024-09-05",
+      "size": "XL"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Garment-Dyed Cargo Pants",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 306,
+      "platform": "poshmark",
+      "sold_date": "2024-08-30",
+      "size": "28"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "2002R",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 42,
+      "platform": "ebay",
+      "sold_date": "2024-03-25",
+      "size": "12"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Apex Bionic Jacket",
+      "category": "outerwear",
+      "condition": "new",
+      "sold_price": 401,
+      "platform": "poshmark",
+      "sold_date": "2024-08-16",
+      "size": "L"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Canvas Tote Bag",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 34,
+      "platform": "grailed",
+      "sold_date": "2024-06-05",
+      "size": "L/XL"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Run Anywhere Crew",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 146,
+      "platform": "ebay",
+      "sold_date": "2024-04-12",
+      "size": "L"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Apex Bionic Jacket",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 80,
+      "platform": "grailed",
+      "sold_date": "2024-07-08",
+      "size": "L"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Rugged Flex Chelsea Boot",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 91,
+      "platform": "ebay",
+      "sold_date": "2024-12-18",
+      "size": "9"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Signature Logo Cap",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 57,
+      "platform": "grailed",
+      "sold_date": "2024-01-01",
+      "size": "OS"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Footwear Terrebonne Slip-On",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 184,
+      "platform": "grailed",
+      "sold_date": "2024-03-30",
+      "size": "11"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Tailored Shorts",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 21,
+      "platform": "grailed",
+      "sold_date": "2024-05-19",
+      "size": "30"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Leather Loafers",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 42,
+      "platform": "poshmark",
+      "sold_date": "2024-06-04",
+      "size": "9"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Studded Crossbody Bag",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 55,
+      "platform": "depop",
+      "sold_date": "2024-04-08",
+      "size": "OS"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Logo Patch Mule",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 469,
+      "platform": "depop",
+      "sold_date": "2024-01-18",
+      "size": "8"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Stripe Poplin Crop Top",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 51,
+      "platform": "poshmark",
+      "sold_date": "2024-10-11",
+      "size": "XS"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "RL Leather Loafer",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 191,
+      "platform": "ebay",
+      "sold_date": "2024-08-12",
+      "size": "9"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Q Speed Jacquard Shirt",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 148,
+      "platform": "ebay",
+      "sold_date": "2024-01-17",
+      "size": "XS"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Funhoggers Tote Bag",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 37,
+      "platform": "depop",
+      "sold_date": "2024-08-03",
+      "size": "M/L"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Logo 5-Panel Cap",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 65,
+      "platform": "grailed",
+      "sold_date": "2024-05-29",
+      "size": "S/M"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Suede Low-Top Sneaker",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 517,
+      "platform": "depop",
+      "sold_date": "2024-01-03",
+      "size": "11"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Konseal FL 2 GTX",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 121,
+      "platform": "grailed",
+      "sold_date": "2024-09-07",
+      "size": "10"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Exploration Convertible Pants",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 166,
+      "platform": "poshmark",
+      "sold_date": "2024-09-06",
+      "size": "29"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Leather Belt",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 82,
+      "platform": "depop",
+      "sold_date": "2024-03-11",
+      "size": "M/L"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Floral Puff Sleeve Top",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 147,
+      "platform": "depop",
+      "sold_date": "2024-03-15",
+      "size": "XL"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Henley Thermal",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 78,
+      "platform": "ebay",
+      "sold_date": "2024-08-26",
+      "size": "M"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Canvas Tote Bag",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 66,
+      "platform": "poshmark",
+      "sold_date": "2024-10-04",
+      "size": "S/M"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Signature Tape Logo Bomber",
+      "category": "outerwear",
+      "condition": "new",
+      "sold_price": 236,
+      "platform": "grailed",
+      "sold_date": "2024-02-11",
+      "size": "L"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Forum Low",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 26,
+      "platform": "poshmark",
+      "sold_date": "2024-01-16",
+      "size": "12"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "Slim Fit Striped Tee",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 115,
+      "platform": "ebay",
+      "sold_date": "2024-03-24",
+      "size": "XS"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Resolve 2 Jacket",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 90,
+      "platform": "depop",
+      "sold_date": "2024-06-13",
+      "size": "XS"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Logo Beanie",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 26,
+      "platform": "grailed",
+      "sold_date": "2024-09-04",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Ribbed Scarf",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 18,
+      "platform": "ebay",
+      "sold_date": "2024-01-23",
+      "size": "S/M"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Canvas Work Pants",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 48,
+      "platform": "grailed",
+      "sold_date": "2024-11-01",
+      "size": "30"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Better Sweater Fleece Jacket",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 286,
+      "platform": "grailed",
+      "sold_date": "2024-04-11",
+      "size": "S"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Sherpa-Lined Hoodie",
+      "category": "outerwear",
+      "condition": "new",
+      "sold_price": 199,
+      "platform": "ebay",
+      "sold_date": "2024-02-13",
+      "size": "XL"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Simple Dome Tee",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 56,
+      "platform": "ebay",
+      "sold_date": "2024-10-19",
+      "size": "S"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Ultraboost 22",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 48,
+      "platform": "depop",
+      "sold_date": "2024-01-02",
+      "size": "12"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Leather Belt",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 43,
+      "platform": "grailed",
+      "sold_date": "2024-03-05",
+      "size": "OS"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Essentials French Terry Pant",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 103,
+      "platform": "poshmark",
+      "sold_date": "2024-01-26",
+      "size": "29"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Down Sweater Hoody",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 85,
+      "platform": "ebay",
+      "sold_date": "2024-03-02",
+      "size": "L"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Arc Sweatpants",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 180,
+      "platform": "poshmark",
+      "sold_date": "2024-06-12",
+      "size": "29"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Merino Wool-Blend Cardigan",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 508,
+      "platform": "poshmark",
+      "sold_date": "2024-11-09",
+      "size": "L"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Sport Shorts",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 43,
+      "platform": "poshmark",
+      "sold_date": "2024-08-14",
+      "size": "32"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Stripe Pocket Tee",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 142,
+      "platform": "depop",
+      "sold_date": "2024-02-22",
+      "size": "L"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Coaches Jacket",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 131,
+      "platform": "ebay",
+      "sold_date": "2024-11-23",
+      "size": "XS"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "5-Inch Run Short",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 39,
+      "platform": "grailed",
+      "sold_date": "2024-02-26",
+      "size": "34"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Originals Ringer Tee",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 25,
+      "platform": "ebay",
+      "sold_date": "2024-10-13",
+      "size": "L"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Jadon Platform Boot",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 163,
+      "platform": "depop",
+      "sold_date": "2024-07-17",
+      "size": "11"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Bandana",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 12,
+      "platform": "poshmark",
+      "sold_date": "2024-08-21",
+      "size": "OS"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Leather Reversible Belt",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 71,
+      "platform": "poshmark",
+      "sold_date": "2024-04-30",
+      "size": "OS"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "Leather Gloves",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 52,
+      "platform": "depop",
+      "sold_date": "2024-08-17",
+      "size": "S/M"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Leather Reversible Belt",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 93,
+      "platform": "ebay",
+      "sold_date": "2024-07-25",
+      "size": "S/M"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Squadra 21 Shorts",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 75,
+      "platform": "grailed",
+      "sold_date": "2024-06-16",
+      "size": "28"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Gilliam Vest",
+      "category": "outerwear",
+      "condition": "new",
+      "sold_price": 195,
+      "platform": "ebay",
+      "sold_date": "2024-07-21",
+      "size": "XL"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Musubi Wool Scarf",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 314,
+      "platform": "poshmark",
+      "sold_date": "2024-11-10",
+      "size": "S/M"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Venta Beanie",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 138,
+      "platform": "poshmark",
+      "sold_date": "2024-09-12",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Duck Active Jacket",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 136,
+      "platform": "poshmark",
+      "sold_date": "2024-02-15",
+      "size": "M"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "990v5",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 108,
+      "platform": "ebay",
+      "sold_date": "2024-02-20",
+      "size": "12"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Logo 5-Panel Cap",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 223,
+      "platform": "depop",
+      "sold_date": "2024-10-21",
+      "size": "S/M"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Oversized Logo Hoodie",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 383,
+      "platform": "ebay",
+      "sold_date": "2024-04-26",
+      "size": "L"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Script Logo Tee",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 41,
+      "platform": "ebay",
+      "sold_date": "2024-06-11",
+      "size": "XL"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "High-Rise Wide-Leg Pants",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 92,
+      "platform": "ebay",
+      "sold_date": "2024-05-11",
+      "size": "34"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "x New Balance 574",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 254,
+      "platform": "depop",
+      "sold_date": "2024-12-23",
+      "size": "8"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Trucker Denim Jacket",
+      "category": "outerwear",
+      "condition": "new",
+      "sold_price": 136,
+      "platform": "depop",
+      "sold_date": "2024-02-01",
+      "size": "S"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Adicolor Windbreaker",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 75,
+      "platform": "grailed",
+      "sold_date": "2024-06-13",
+      "size": "XL"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Canvas Work Pants",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 31,
+      "platform": "ebay",
+      "sold_date": "2024-05-22",
+      "size": "34"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Leather Belt Bag",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 30,
+      "platform": "poshmark",
+      "sold_date": "2024-06-25",
+      "size": "L/XL"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Antora Rain Hoodie",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 75,
+      "platform": "depop",
+      "sold_date": "2024-03-27",
+      "size": "XL"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Trench Coat",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 36,
+      "platform": "depop",
+      "sold_date": "2024-03-01",
+      "size": "L"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Aphrodite Motion Pants",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 56,
+      "platform": "poshmark",
+      "sold_date": "2024-08-26",
+      "size": "28"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Wool Headband",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 125,
+      "platform": "depop",
+      "sold_date": "2024-12-11",
+      "size": "OS"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Antora Rain Hoodie",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 104,
+      "platform": "ebay",
+      "sold_date": "2024-08-14",
+      "size": "XS"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "TNT Canvas Sneaker",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 60,
+      "platform": "depop",
+      "sold_date": "2024-11-17",
+      "size": "11"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Mystic Beanie",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 20,
+      "platform": "depop",
+      "sold_date": "2024-07-20",
+      "size": "S/M"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Hana Denim Skirt",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 211,
+      "platform": "ebay",
+      "sold_date": "2024-06-30",
+      "size": "32"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Logo Tape Track Pants",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 142,
+      "platform": "ebay",
+      "sold_date": "2024-12-02",
+      "size": "28"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Perey Leather Sneaker",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 300,
+      "platform": "depop",
+      "sold_date": "2024-12-01",
+      "size": "9"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Nine Trails Shorts",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 97,
+      "platform": "depop",
+      "sold_date": "2024-12-03",
+      "size": "34"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Thermoball Eco Hoody",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 269,
+      "platform": "grailed",
+      "sold_date": "2024-06-27",
+      "size": "XL"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Sloane Blazer",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 92,
+      "platform": "grailed",
+      "sold_date": "2024-08-07",
+      "size": "XS"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Impact Run Luminous Jacket",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 170,
+      "platform": "depop",
+      "sold_date": "2024-01-08",
+      "size": "L"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Modern Cupsole Oxford",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 158,
+      "platform": "depop",
+      "sold_date": "2024-12-07",
+      "size": "12"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Linen Button-Down Shirt",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 12,
+      "platform": "depop",
+      "sold_date": "2024-04-23",
+      "size": "M"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Logo 5-Panel Cap",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 121,
+      "platform": "depop",
+      "sold_date": "2024-06-15",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "Monogram Belt",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 42,
+      "platform": "depop",
+      "sold_date": "2024-09-30",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Eleanor Boot",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 78,
+      "platform": "depop",
+      "sold_date": "2024-11-26",
+      "size": "8"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Utility Cargo Pants",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 53,
+      "platform": "poshmark",
+      "sold_date": "2024-10-24",
+      "size": "34"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Camp Slide",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 59,
+      "platform": "ebay",
+      "sold_date": "2024-09-28",
+      "size": "9"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Cali Demi-Boot Jeans",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 70,
+      "platform": "ebay",
+      "sold_date": "2024-07-01",
+      "size": "34"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "1080v12",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 40,
+      "platform": "grailed",
+      "sold_date": "2024-11-04",
+      "size": "8"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Canvas Tote Bag",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 59,
+      "platform": "grailed",
+      "sold_date": "2024-11-22",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "A2B Cap",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 161,
+      "platform": "grailed",
+      "sold_date": "2024-08-06",
+      "size": "S/M"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Logo Graphic Tee",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 53,
+      "platform": "depop",
+      "sold_date": "2024-03-22",
+      "size": "XS"
+    },
+    {
+      "brand": "Nike",
+      "item_name": "Tech Pack Long-Sleeve",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 30,
+      "platform": "poshmark",
+      "sold_date": "2024-08-10",
+      "size": "XL"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Platform Sandals",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 29,
+      "platform": "depop",
+      "sold_date": "2024-09-30",
+      "size": "8"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "327",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 128,
+      "platform": "poshmark",
+      "sold_date": "2024-06-27",
+      "size": "12"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Cropped Blazer",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 12,
+      "platform": "ebay",
+      "sold_date": "2024-03-17",
+      "size": "XL"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Palisade Pant",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 373,
+      "platform": "grailed",
+      "sold_date": "2024-04-24",
+      "size": "34"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Sport 6-Panel Stretch Hat",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 63,
+      "platform": "ebay",
+      "sold_date": "2024-03-26",
+      "size": "M/L"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Box Logo Hooded Sweatshirt",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 237,
+      "platform": "depop",
+      "sold_date": "2024-05-28",
+      "size": "XL"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Packable Anorak Jacket",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 59,
+      "platform": "poshmark",
+      "sold_date": "2024-03-10",
+      "size": "L"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Powerblend Fleece Pants",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 81,
+      "platform": "grailed",
+      "sold_date": "2024-08-25",
+      "size": "28"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Aerios FL GTX Shoe",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 537,
+      "platform": "ebay",
+      "sold_date": "2024-09-23",
+      "size": "8"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Cotton Pocket Tee",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 251,
+      "platform": "ebay",
+      "sold_date": "2024-09-03",
+      "size": "XS"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Pleated Midi Wrap Skirt",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 49,
+      "platform": "depop",
+      "sold_date": "2024-08-02",
+      "size": "30"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Paramount Active Convertible Pants",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 191,
+      "platform": "grailed",
+      "sold_date": "2024-03-11",
+      "size": "29"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "V-Neck Knit Sweater",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 11,
+      "platform": "grailed",
+      "sold_date": "2024-03-20",
+      "size": "S"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Canvas Work Tote",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 41,
+      "platform": "poshmark",
+      "sold_date": "2024-09-03",
+      "size": "OS"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Texture Thread Sweater Tank",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 31,
+      "platform": "poshmark",
+      "sold_date": "2024-10-11",
+      "size": "M"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Essentials French Terry Joggers",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 46,
+      "platform": "poshmark",
+      "sold_date": "2024-04-01",
+      "size": "34"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Straight-Leg Cargo Pants",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 288,
+      "platform": "ebay",
+      "sold_date": "2024-05-10",
+      "size": "34"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Ainsley Mule",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 39,
+      "platform": "ebay",
+      "sold_date": "2024-05-23",
+      "size": "8"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Slingshot Bag",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 62,
+      "platform": "ebay",
+      "sold_date": "2024-12-24",
+      "size": "OS"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Phasic SL Tee",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 444,
+      "platform": "poshmark",
+      "sold_date": "2024-03-10",
+      "size": "M"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Logo Cap",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 14,
+      "platform": "grailed",
+      "sold_date": "2024-01-26",
+      "size": "OS"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Colorblock Anorak Jacket",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 48,
+      "platform": "grailed",
+      "sold_date": "2024-02-15",
+      "size": "XS"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Linen Button-Down Shirt",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 44,
+      "platform": "ebay",
+      "sold_date": "2024-09-05",
+      "size": "M"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Aerios FL GTX Shoe",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 374,
+      "platform": "depop",
+      "sold_date": "2024-06-29",
+      "size": "8"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Run Anywhere Crew",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 111,
+      "platform": "ebay",
+      "sold_date": "2024-12-27",
+      "size": "S"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Oxford Logo Polo",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 82,
+      "platform": "depop",
+      "sold_date": "2024-09-01",
+      "size": "S"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Quilted Nylon Jacket",
+      "category": "outerwear",
+      "condition": "new",
+      "sold_price": 731,
+      "platform": "poshmark",
+      "sold_date": "2024-09-27",
+      "size": "XS"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Mid Cut Sneaker",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 79,
+      "platform": "poshmark",
+      "sold_date": "2024-02-07",
+      "size": "12"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Linen Blend Straight-Leg Pants",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 47,
+      "platform": "ebay",
+      "sold_date": "2024-08-18",
+      "size": "30"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Back-to-Berkeley Redux Boot",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 207,
+      "platform": "grailed",
+      "sold_date": "2024-01-10",
+      "size": "12"
+    },
+    {
+      "brand": "Reformation",
+      "item_name": "Cotton Knit Crop Tee",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 92,
+      "platform": "depop",
+      "sold_date": "2024-05-01",
+      "size": "XS"
+    },
+    {
+      "brand": "Nike",
+      "item_name": "ACG Short-Sleeve Top",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 29,
+      "platform": "poshmark",
+      "sold_date": "2024-10-20",
+      "size": "L"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Regular Fit Chino",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 182,
+      "platform": "ebay",
+      "sold_date": "2024-12-11",
+      "size": "34"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "S0101 Sneaker",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 351,
+      "platform": "ebay",
+      "sold_date": "2024-03-17",
+      "size": "11"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Delta LT Hoody",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 274,
+      "platform": "poshmark",
+      "sold_date": "2024-01-30",
+      "size": "L"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Relaxed-Fit Wide Leg Trousers",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 405,
+      "platform": "grailed",
+      "sold_date": "2024-03-09",
+      "size": "32"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "x Timberland 6-Inch Boot",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 350,
+      "platform": "ebay",
+      "sold_date": "2024-07-30",
+      "size": "10"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Puffer Vest",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 70,
+      "platform": "poshmark",
+      "sold_date": "2024-03-28",
+      "size": "XS"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Waterproof Hiking Boot",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 590,
+      "platform": "grailed",
+      "sold_date": "2024-11-06",
+      "size": "12"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Boardwalk Thong Sandal",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 163,
+      "platform": "depop",
+      "sold_date": "2024-10-15",
+      "size": "10"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Logo Belt",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 52,
+      "platform": "grailed",
+      "sold_date": "2024-01-10",
+      "size": "M/L"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "High-Top Sneaker",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 84,
+      "platform": "ebay",
+      "sold_date": "2024-07-16",
+      "size": "11"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Linear Logo Backpack",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 18,
+      "platform": "grailed",
+      "sold_date": "2024-07-28",
+      "size": "S/M"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Adicolor Classics Trefoil Tee",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 21,
+      "platform": "poshmark",
+      "sold_date": "2024-04-05",
+      "size": "S"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Sherpa-Lined Jacket",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 68,
+      "platform": "poshmark",
+      "sold_date": "2024-10-10",
+      "size": "XL"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Phase AR Headband",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 248,
+      "platform": "poshmark",
+      "sold_date": "2024-09-29",
+      "size": "S/M"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Sport Shorts",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 35,
+      "platform": "poshmark",
+      "sold_date": "2024-07-02",
+      "size": "28"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Flirty Flare Mini Skirt",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 53,
+      "platform": "grailed",
+      "sold_date": "2024-11-05",
+      "size": "28"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "You're the Limit Parka",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 50,
+      "platform": "depop",
+      "sold_date": "2024-03-11",
+      "size": "XL"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Tiro 21 Track Pants",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 22,
+      "platform": "depop",
+      "sold_date": "2024-08-18",
+      "size": "30"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Powerblend Crew",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 32,
+      "platform": "depop",
+      "sold_date": "2024-01-12",
+      "size": "XL"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Suede Low-Top Sneaker",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 321,
+      "platform": "poshmark",
+      "sold_date": "2024-09-09",
+      "size": "11"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Originals Beckenbauer Track Jacket",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 128,
+      "platform": "depop",
+      "sold_date": "2024-10-27",
+      "size": "XL"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Maka 2 Wallet",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 192,
+      "platform": "depop",
+      "sold_date": "2024-06-18",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Quilted Nylon Jacket",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 578,
+      "platform": "grailed",
+      "sold_date": "2024-10-23",
+      "size": "XL"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Block Heel Mules",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 30,
+      "platform": "ebay",
+      "sold_date": "2024-12-10",
+      "size": "9"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Graphic Print Tee",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 101,
+      "platform": "poshmark",
+      "sold_date": "2024-07-19",
+      "size": "S"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Cargo Fatigue Pants",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 184,
+      "platform": "depop",
+      "sold_date": "2024-11-14",
+      "size": "29"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Satin Logo Shorts",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 18,
+      "platform": "depop",
+      "sold_date": "2024-02-26",
+      "size": "29"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Garment-Dyed Cargo Pants",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 652,
+      "platform": "depop",
+      "sold_date": "2024-09-12",
+      "size": "34"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Ribbed Scarf",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 22,
+      "platform": "depop",
+      "sold_date": "2024-08-29",
+      "size": "S/M"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Trucker Denim Jacket",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 86,
+      "platform": "grailed",
+      "sold_date": "2024-05-06",
+      "size": "M"
+    },
+    {
+      "brand": "Reformation",
+      "item_name": "Recycled Puffer",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 157,
+      "platform": "ebay",
+      "sold_date": "2024-10-07",
+      "size": "XL"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Whisper Cotton Crewneck Tee",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 30,
+      "platform": "poshmark",
+      "sold_date": "2024-01-26",
+      "size": "M"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Musubi Wool Scarf",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 195,
+      "platform": "depop",
+      "sold_date": "2024-08-08",
+      "size": "M/L"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Ultra 109 GTX",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 148,
+      "platform": "grailed",
+      "sold_date": "2024-09-27",
+      "size": "10"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Mid Cut Sneaker",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 38,
+      "platform": "poshmark",
+      "sold_date": "2024-09-28",
+      "size": "11"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Nylon Metal Shorts",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 419,
+      "platform": "ebay",
+      "sold_date": "2024-10-02",
+      "size": "30"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Hooded Yacht Jacket",
+      "category": "outerwear",
+      "condition": "new",
+      "sold_price": 189,
+      "platform": "depop",
+      "sold_date": "2024-11-03",
+      "size": "M"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "Polo Prepster Shorts",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 83,
+      "platform": "depop",
+      "sold_date": "2024-06-16",
+      "size": "30"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Cordura Logo Backpack",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 103,
+      "platform": "depop",
+      "sold_date": "2024-04-23",
+      "size": "L/XL"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Back-to-Berkeley Redux Boot",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 192,
+      "platform": "depop",
+      "sold_date": "2024-09-16",
+      "size": "12"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Flow With It Flare Pant",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 33,
+      "platform": "ebay",
+      "sold_date": "2024-11-23",
+      "size": "28"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Movement Sunny Days Tee",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 148,
+      "platform": "ebay",
+      "sold_date": "2024-08-04",
+      "size": "S"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Satin Logo Shorts",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 37,
+      "platform": "depop",
+      "sold_date": "2024-11-19",
+      "size": "28"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Arc Sweatpants",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 320,
+      "platform": "grailed",
+      "sold_date": "2024-03-18",
+      "size": "29"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Wrap It Up Longline Cardigan",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 162,
+      "platform": "depop",
+      "sold_date": "2024-10-05",
+      "size": "L"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Logo Cap",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 24,
+      "platform": "grailed",
+      "sold_date": "2024-08-29",
+      "size": "M/L"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Flashdry Long-Sleeve Top",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 134,
+      "platform": "poshmark",
+      "sold_date": "2024-02-22",
+      "size": "M"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Waxed Canvas Biker Jacket",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 140,
+      "platform": "grailed",
+      "sold_date": "2024-01-30",
+      "size": "M"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Face Logo Beanie",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 139,
+      "platform": "depop",
+      "sold_date": "2024-11-06",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "S0101 Sneaker",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 403,
+      "platform": "poshmark",
+      "sold_date": "2024-04-29",
+      "size": "8"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "1490 10-Eye Boot",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 53,
+      "platform": "ebay",
+      "sold_date": "2024-11-01",
+      "size": "11"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Puff-Sleeve Button-Down",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 24,
+      "platform": "depop",
+      "sold_date": "2024-06-30",
+      "size": "XS"
+    },
+    {
+      "brand": "Nike",
+      "item_name": "Tech Pack Anorak",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 114,
+      "platform": "poshmark",
+      "sold_date": "2024-04-05",
+      "size": "XL"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Granite Crest Boot",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 82,
+      "platform": "ebay",
+      "sold_date": "2024-09-27",
+      "size": "10"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Sherpa-Lined Hoodie",
+      "category": "outerwear",
+      "condition": "new",
+      "sold_price": 225,
+      "platform": "poshmark",
+      "sold_date": "2024-08-08",
+      "size": "L"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Mid Cut Sneaker",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 37,
+      "platform": "grailed",
+      "sold_date": "2024-01-07",
+      "size": "12"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Mesa Amor Belt Bag",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 23,
+      "platform": "grailed",
+      "sold_date": "2024-07-12",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "Water-Repellent Down Jacket",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 75,
+      "platform": "poshmark",
+      "sold_date": "2024-01-08",
+      "size": "M"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "5-Pocket Stretch Jeans",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 29,
+      "platform": "poshmark",
+      "sold_date": "2024-12-10",
+      "size": "28"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Naga Glove",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 227,
+      "platform": "depop",
+      "sold_date": "2024-03-03",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "Polo Prepster Shorts",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 87,
+      "platform": "depop",
+      "sold_date": "2024-07-18",
+      "size": "32"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Text Graphic Crewneck",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 205,
+      "platform": "ebay",
+      "sold_date": "2024-03-31",
+      "size": "L"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "R1 Air Crew",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 63,
+      "platform": "grailed",
+      "sold_date": "2024-11-10",
+      "size": "S"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "Monogram Belt",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 32,
+      "platform": "grailed",
+      "sold_date": "2024-04-09",
+      "size": "S/M"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Mesh Backpack",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 18,
+      "platform": "grailed",
+      "sold_date": "2024-03-23",
+      "size": "M/L"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "BFP Backpack",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 39,
+      "platform": "poshmark",
+      "sold_date": "2024-04-29",
+      "size": "M/L"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Hooded Yacht Jacket",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 139,
+      "platform": "depop",
+      "sold_date": "2024-01-21",
+      "size": "XS"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Belted Wool Coat",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 25,
+      "platform": "depop",
+      "sold_date": "2024-09-04",
+      "size": "S"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Flashdry Long-Sleeve Top",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 204,
+      "platform": "depop",
+      "sold_date": "2024-01-25",
+      "size": "M"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Rugged Flex Relaxed Jeans",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 27,
+      "platform": "grailed",
+      "sold_date": "2024-09-02",
+      "size": "34"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Capilene Cool Lightweight Tee",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 93,
+      "platform": "poshmark",
+      "sold_date": "2024-09-10",
+      "size": "XL"
+    },
+    {
+      "brand": "Reformation",
+      "item_name": "Wool-Blend Mini Coat",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 76,
+      "platform": "ebay",
+      "sold_date": "2024-04-26",
+      "size": "S"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Cali Dreaming Faux-Fur Coat",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 140,
+      "platform": "grailed",
+      "sold_date": "2024-03-23",
+      "size": "L"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "990v5",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 50,
+      "platform": "ebay",
+      "sold_date": "2024-06-20",
+      "size": "11"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Cotton Pocket Tee",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 270,
+      "platform": "poshmark",
+      "sold_date": "2024-08-06",
+      "size": "S"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Workwear Shorts",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 90,
+      "platform": "depop",
+      "sold_date": "2024-12-13",
+      "size": "34"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Canvas Work Tote",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 40,
+      "platform": "depop",
+      "sold_date": "2024-10-01",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Reformation",
+      "item_name": "Silk Scarf",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 54,
+      "platform": "depop",
+      "sold_date": "2024-07-30",
+      "size": "M/L"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Knit Beanie",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 41,
+      "platform": "ebay",
+      "sold_date": "2024-11-06",
+      "size": "M/L"
+    },
+    {
+      "brand": "Reformation",
+      "item_name": "Midi Floral Wrap Skirt",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 123,
+      "platform": "depop",
+      "sold_date": "2024-01-17",
+      "size": "30"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Essentials Stacked Logo Tee",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 39,
+      "platform": "ebay",
+      "sold_date": "2024-10-08",
+      "size": "XL"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "TNT Canvas Sneaker",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 32,
+      "platform": "poshmark",
+      "sold_date": "2024-09-21",
+      "size": "11"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Crescent Scarf",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 32,
+      "platform": "poshmark",
+      "sold_date": "2024-09-01",
+      "size": "M/L"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "New York Knicks Box Logo Tee",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 212,
+      "platform": "grailed",
+      "sold_date": "2024-02-24",
+      "size": "S"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Colorblock Anorak Jacket",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 153,
+      "platform": "poshmark",
+      "sold_date": "2024-01-05",
+      "size": "M"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Pleated Midi Wrap Skirt",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 61,
+      "platform": "depop",
+      "sold_date": "2024-07-02",
+      "size": "28"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Intimately FP Cami",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 123,
+      "platform": "depop",
+      "sold_date": "2024-06-23",
+      "size": "XL"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Trucker Hat",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 123,
+      "platform": "poshmark",
+      "sold_date": "2024-08-31",
+      "size": "M/L"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Relaxed Fit Flannel",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 22,
+      "platform": "depop",
+      "sold_date": "2024-07-22",
+      "size": "XL"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Athletics Jacket",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 94,
+      "platform": "ebay",
+      "sold_date": "2024-08-10",
+      "size": "M"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Workwear Shorts",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 207,
+      "platform": "poshmark",
+      "sold_date": "2024-09-18",
+      "size": "28"
+    },
+    {
+      "brand": "Reformation",
+      "item_name": "Ribbed Knit Midi Skirt",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 163,
+      "platform": "depop",
+      "sold_date": "2024-06-05",
+      "size": "29"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Canvas Work Tote",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 47,
+      "platform": "poshmark",
+      "sold_date": "2024-06-24",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Oxford Logo Polo",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 117,
+      "platform": "ebay",
+      "sold_date": "2024-07-23",
+      "size": "S"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Alpha SV Jacket",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 532,
+      "platform": "ebay",
+      "sold_date": "2024-06-09",
+      "size": "L"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Tiro 21 Track Pants",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 46,
+      "platform": "grailed",
+      "sold_date": "2024-12-05",
+      "size": "34"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "BW Striped Tee",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 57,
+      "platform": "ebay",
+      "sold_date": "2024-08-11",
+      "size": "M"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Musubi Wool Scarf",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 115,
+      "platform": "ebay",
+      "sold_date": "2024-05-22",
+      "size": "OS"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Half Dome Tee",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 154,
+      "platform": "ebay",
+      "sold_date": "2024-03-27",
+      "size": "M"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Padded Puffer Jacket",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 37,
+      "platform": "poshmark",
+      "sold_date": "2024-08-04",
+      "size": "L"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Utility Cargo Pants",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 230,
+      "platform": "poshmark",
+      "sold_date": "2024-03-25",
+      "size": "30"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Sunrise Sunnies",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 19,
+      "platform": "poshmark",
+      "sold_date": "2024-06-03",
+      "size": "S/M"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Motus AR Hoody",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 92,
+      "platform": "depop",
+      "sold_date": "2024-09-05",
+      "size": "XL"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Linen Blend Straight-Leg Pants",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 32,
+      "platform": "poshmark",
+      "sold_date": "2024-07-08",
+      "size": "29"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Union Sneaker",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 139,
+      "platform": "depop",
+      "sold_date": "2024-09-27",
+      "size": "10"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Q Speed Jacquard Shirt",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 119,
+      "platform": "poshmark",
+      "sold_date": "2024-04-24",
+      "size": "S"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Contrast Stitch Logo Tee",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 151,
+      "platform": "grailed",
+      "sold_date": "2024-09-23",
+      "size": "L"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Apex Bionic Jacket",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 247,
+      "platform": "depop",
+      "sold_date": "2024-07-17",
+      "size": "S"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Merino Wool-Blend Cardigan",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 324,
+      "platform": "depop",
+      "sold_date": "2024-03-14",
+      "size": "S"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Heavy Denim Jeans",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 93,
+      "platform": "ebay",
+      "sold_date": "2024-09-03",
+      "size": "34"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Gamma LT Pant",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 503,
+      "platform": "ebay",
+      "sold_date": "2024-06-10",
+      "size": "28"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Long-Sleeve Pocket T-Shirt",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 26,
+      "platform": "ebay",
+      "sold_date": "2024-06-28",
+      "size": "XL"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Down Sweater Hoody",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 239,
+      "platform": "ebay",
+      "sold_date": "2024-01-13",
+      "size": "M"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Trench Coat",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 57,
+      "platform": "grailed",
+      "sold_date": "2024-04-28",
+      "size": "XL"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Tailored Cropped Trousers",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 124,
+      "platform": "ebay",
+      "sold_date": "2024-03-18",
+      "size": "34"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "High-Top Sneaker",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 88,
+      "platform": "ebay",
+      "sold_date": "2024-08-12",
+      "size": "11"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Essentials French Terry Pant",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 125,
+      "platform": "depop",
+      "sold_date": "2024-12-12",
+      "size": "28"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Packable Anorak Jacket",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 81,
+      "platform": "ebay",
+      "sold_date": "2024-12-18",
+      "size": "S"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Box Logo Balaclava",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 121,
+      "platform": "depop",
+      "sold_date": "2024-04-28",
+      "size": "M/L"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Rugged Flex Chelsea Boot",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 64,
+      "platform": "poshmark",
+      "sold_date": "2024-04-07",
+      "size": "8"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Shelled Synchilla Jacket",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 116,
+      "platform": "grailed",
+      "sold_date": "2024-08-09",
+      "size": "S"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Intimately FP Cami",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 84,
+      "platform": "ebay",
+      "sold_date": "2024-03-08",
+      "size": "M"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Cropped Blazer",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 21,
+      "platform": "poshmark",
+      "sold_date": "2024-03-19",
+      "size": "S"
+    },
+    {
+      "brand": "Reformation",
+      "item_name": "Ribbed Beanie",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 147,
+      "platform": "ebay",
+      "sold_date": "2024-02-24",
+      "size": "OS"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Ghost Piece Down Vest",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 218,
+      "platform": "depop",
+      "sold_date": "2024-08-27",
+      "size": "XL"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Stripe Pocket Tee",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 163,
+      "platform": "poshmark",
+      "sold_date": "2024-12-07",
+      "size": "L"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Vintage Graphic Tee",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 85,
+      "platform": "depop",
+      "sold_date": "2024-02-23",
+      "size": "XS"
+    },
+    {
+      "brand": "Nike",
+      "item_name": "Sportswear Windrunner Jacket",
+      "category": "outerwear",
+      "condition": "new",
+      "sold_price": 215,
+      "platform": "poshmark",
+      "sold_date": "2024-12-14",
+      "size": "L"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Revelry Ankle Boot",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 78,
+      "platform": "depop",
+      "sold_date": "2024-02-03",
+      "size": "9"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "1460 Pascal 8-Eye Boot",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 66,
+      "platform": "poshmark",
+      "sold_date": "2024-02-15",
+      "size": "8"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Baker Cap",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 115,
+      "platform": "depop",
+      "sold_date": "2024-01-06",
+      "size": "M/L"
+    },
+    {
+      "brand": "Reformation",
+      "item_name": "Wool-Blend Mini Coat",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 77,
+      "platform": "poshmark",
+      "sold_date": "2024-10-26",
+      "size": "XL"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Vectiv Fastpack GTX",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 67,
+      "platform": "ebay",
+      "sold_date": "2024-05-02",
+      "size": "10"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "ThermoBall Traction Boot",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 164,
+      "platform": "poshmark",
+      "sold_date": "2024-11-04",
+      "size": "8"
+    },
+    {
+      "brand": "Nike",
+      "item_name": "Club Fleece Sweatpants",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 122,
+      "platform": "poshmark",
+      "sold_date": "2024-03-19",
+      "size": "30"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Puff-Sleeve Button-Down",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 69,
+      "platform": "grailed",
+      "sold_date": "2024-08-09",
+      "size": "XS"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Wander Sun Tee",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 52,
+      "platform": "grailed",
+      "sold_date": "2024-03-28",
+      "size": "M"
+    },
+    {
+      "brand": "Reformation",
+      "item_name": "High-Rise Skinny Jeans",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 57,
+      "platform": "depop",
+      "sold_date": "2024-04-22",
+      "size": "29"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Q Speed Jacquard Shirt",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 61,
+      "platform": "ebay",
+      "sold_date": "2024-11-13",
+      "size": "M"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Adicolor Windbreaker",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 75,
+      "platform": "grailed",
+      "sold_date": "2024-12-26",
+      "size": "S"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Adriana Lace-Up Boot",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 254,
+      "platform": "poshmark",
+      "sold_date": "2024-02-23",
+      "size": "9"
+    },
+    {
+      "brand": "Nike",
+      "item_name": "ACG Short-Sleeve Top",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 63,
+      "platform": "grailed",
+      "sold_date": "2024-08-04",
+      "size": "XS"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Tailored Cropped Trousers",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 327,
+      "platform": "poshmark",
+      "sold_date": "2024-10-20",
+      "size": "34"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Flashdry Long-Sleeve Top",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 219,
+      "platform": "ebay",
+      "sold_date": "2024-11-27",
+      "size": "S"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Athletics Fleece Sweatpant",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 99,
+      "platform": "depop",
+      "sold_date": "2024-04-07",
+      "size": "34"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Tailored Cropped Trousers",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 321,
+      "platform": "depop",
+      "sold_date": "2024-09-21",
+      "size": "32"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "720 High-Rise Super Skinny Jeans",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 63,
+      "platform": "depop",
+      "sold_date": "2024-06-21",
+      "size": "30"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Delta LT Hoody",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 261,
+      "platform": "ebay",
+      "sold_date": "2024-02-19",
+      "size": "M"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Q Speed Jacquard Shirt",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 118,
+      "platform": "poshmark",
+      "sold_date": "2024-06-27",
+      "size": "L"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "High-Rise Slim Flare",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 159,
+      "platform": "ebay",
+      "sold_date": "2024-01-31",
+      "size": "30"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Powerblend Crew",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 33,
+      "platform": "ebay",
+      "sold_date": "2024-09-09",
+      "size": "S"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Arc Sweatpants",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 392,
+      "platform": "poshmark",
+      "sold_date": "2024-07-09",
+      "size": "29"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Faux-Leather Biker Jacket",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 24,
+      "platform": "poshmark",
+      "sold_date": "2024-05-18",
+      "size": "XS"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Membrana 3L TC Jacket",
+      "category": "outerwear",
+      "condition": "new",
+      "sold_price": 972,
+      "platform": "grailed",
+      "sold_date": "2024-04-25",
+      "size": "M"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "Polo Prepster Shorts",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 86,
+      "platform": "depop",
+      "sold_date": "2024-06-16",
+      "size": "28"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Flannel Perfect Shirt",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 112,
+      "platform": "poshmark",
+      "sold_date": "2024-10-27",
+      "size": "L"
+    },
+    {
+      "brand": "Reformation",
+      "item_name": "Kitten Heel Mule",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 64,
+      "platform": "depop",
+      "sold_date": "2024-04-06",
+      "size": "10"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Firm Duck Tool Roll",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 80,
+      "platform": "depop",
+      "sold_date": "2024-03-14",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Delta LT Hoody",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 406,
+      "platform": "depop",
+      "sold_date": "2024-04-07",
+      "size": "M"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Quarter-Zip Fleece",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 52,
+      "platform": "depop",
+      "sold_date": "2024-05-26",
+      "size": "L"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "501 Original Jeans",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 87,
+      "platform": "depop",
+      "sold_date": "2024-05-01",
+      "size": "32"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Shelled Synchilla Jacket",
+      "category": "outerwear",
+      "condition": "new",
+      "sold_price": 406,
+      "platform": "grailed",
+      "sold_date": "2024-06-07",
+      "size": "XS"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Forum Low",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 117,
+      "platform": "depop",
+      "sold_date": "2024-01-06",
+      "size": "10"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Impact Run Luminous Jacket",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 56,
+      "platform": "grailed",
+      "sold_date": "2024-04-15",
+      "size": "M"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Bandana",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 26,
+      "platform": "grailed",
+      "sold_date": "2024-04-30",
+      "size": "S/M"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "New Era Box Logo Beanie",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 200,
+      "platform": "depop",
+      "sold_date": "2024-12-29",
+      "size": "OS"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Naga Glove",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 243,
+      "platform": "grailed",
+      "sold_date": "2024-08-11",
+      "size": "M/L"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Rugged Flex Chelsea Boot",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 123,
+      "platform": "grailed",
+      "sold_date": "2024-07-15",
+      "size": "11"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Q Speed Jacquard Shirt",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 66,
+      "platform": "depop",
+      "sold_date": "2024-09-08",
+      "size": "M"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Nash Face T-Shirt",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 353,
+      "platform": "ebay",
+      "sold_date": "2024-02-18",
+      "size": "XS"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "The Karin Chelsea Boot",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 32,
+      "platform": "ebay",
+      "sold_date": "2024-01-15",
+      "size": "9"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "R1 Air Crew",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 188,
+      "platform": "poshmark",
+      "sold_date": "2024-07-08",
+      "size": "L"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "New York Knicks Box Logo Tee",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 135,
+      "platform": "depop",
+      "sold_date": "2024-05-02",
+      "size": "XS"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Flint Flop",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 157,
+      "platform": "grailed",
+      "sold_date": "2024-11-22",
+      "size": "11"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Waterproof Hiking Boot",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 341,
+      "platform": "poshmark",
+      "sold_date": "2024-04-30",
+      "size": "8"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Logo-Waistband Leggings",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 102,
+      "platform": "depop",
+      "sold_date": "2024-07-12",
+      "size": "32"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Core Flag Tee",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 31,
+      "platform": "depop",
+      "sold_date": "2024-12-19",
+      "size": "S"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Rugged Flex Relaxed Jeans",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 31,
+      "platform": "grailed",
+      "sold_date": "2024-03-09",
+      "size": "29"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Puff-Sleeve Button-Down",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 67,
+      "platform": "poshmark",
+      "sold_date": "2024-07-19",
+      "size": "XL"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Logo-Waistband Leggings",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 100,
+      "platform": "grailed",
+      "sold_date": "2024-09-05",
+      "size": "30"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Fleece Joggers",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 452,
+      "platform": "poshmark",
+      "sold_date": "2024-07-06",
+      "size": "30"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Proton FL Hoody",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 225,
+      "platform": "poshmark",
+      "sold_date": "2024-03-18",
+      "size": "L"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Surgent Cuffed Sweatpants",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 60,
+      "platform": "grailed",
+      "sold_date": "2024-04-16",
+      "size": "34"
+    },
+    {
+      "brand": "Reformation",
+      "item_name": "Strappy Heeled Sandal",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 122,
+      "platform": "poshmark",
+      "sold_date": "2024-09-22",
+      "size": "11"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Patch Logo Cap",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 267,
+      "platform": "poshmark",
+      "sold_date": "2024-10-28",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Nike",
+      "item_name": "Sport Band",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 49,
+      "platform": "grailed",
+      "sold_date": "2024-11-06",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Adicolor Essentials Slim Sweatpants",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 87,
+      "platform": "grailed",
+      "sold_date": "2024-11-22",
+      "size": "30"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Perey Leather Sneaker",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 164,
+      "platform": "poshmark",
+      "sold_date": "2024-04-09",
+      "size": "11"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Ghost Piece Polo",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 255,
+      "platform": "poshmark",
+      "sold_date": "2024-06-06",
+      "size": "L"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Waist Pack",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 10,
+      "platform": "grailed",
+      "sold_date": "2024-03-06",
+      "size": "OS"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Quilted Nylon Jacket",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 194,
+      "platform": "poshmark",
+      "sold_date": "2024-10-13",
+      "size": "XL"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Quilted Nylon Jacket",
+      "category": "outerwear",
+      "condition": "new",
+      "sold_price": 771,
+      "platform": "poshmark",
+      "sold_date": "2024-03-28",
+      "size": "M"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Court Sneaker",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 18,
+      "platform": "poshmark",
+      "sold_date": "2024-02-29",
+      "size": "10"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Logo Patch Mule",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 281,
+      "platform": "poshmark",
+      "sold_date": "2024-04-04",
+      "size": "11"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "Sport Knit Hat",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 44,
+      "platform": "grailed",
+      "sold_date": "2024-12-03",
+      "size": "OS"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Jogger Sweatpants",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 108,
+      "platform": "grailed",
+      "sold_date": "2024-01-13",
+      "size": "29"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Reverse Weave Joggers",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 17,
+      "platform": "depop",
+      "sold_date": "2024-11-09",
+      "size": "32"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Composite-Toe Work Boot",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 61,
+      "platform": "depop",
+      "sold_date": "2024-09-26",
+      "size": "9"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Terrex Outdoor Pants",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 128,
+      "platform": "grailed",
+      "sold_date": "2024-08-27",
+      "size": "34"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Adicolor Classics Trefoil Tee",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 63,
+      "platform": "ebay",
+      "sold_date": "2024-09-01",
+      "size": "XS"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Baker Micro Leather Bag",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 241,
+      "platform": "ebay",
+      "sold_date": "2024-07-28",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Floral Print Sock",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 128,
+      "platform": "poshmark",
+      "sold_date": "2024-06-28",
+      "size": "S/M"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Cotton Twill Shorts",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 53,
+      "platform": "depop",
+      "sold_date": "2024-02-27",
+      "size": "34"
+    },
+    {
+      "brand": "Reformation",
+      "item_name": "Linen Blazer",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 86,
+      "platform": "depop",
+      "sold_date": "2024-07-05",
+      "size": "L"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Techrock Hooded Jacket",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 63,
+      "platform": "depop",
+      "sold_date": "2024-11-16",
+      "size": "XL"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "Polo Prepster Shorts",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 123,
+      "platform": "grailed",
+      "sold_date": "2024-06-27",
+      "size": "34"
+    },
+    {
+      "brand": "Reformation",
+      "item_name": "Ribbed Beanie",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 87,
+      "platform": "poshmark",
+      "sold_date": "2024-09-02",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Pleated Midi Wrap Skirt",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 29,
+      "platform": "depop",
+      "sold_date": "2024-10-25",
+      "size": "28"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Venta Beanie",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 203,
+      "platform": "grailed",
+      "sold_date": "2024-07-13",
+      "size": "L/XL"
+    },
+    {
+      "brand": "New Balance",
+      "item_name": "327",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 66,
+      "platform": "ebay",
+      "sold_date": "2024-04-30",
+      "size": "10"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Ainsley Mule",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 118,
+      "platform": "depop",
+      "sold_date": "2024-09-24",
+      "size": "10"
+    },
+    {
+      "brand": "Nike",
+      "item_name": "Club Fleece Sweatpants",
+      "category": "bottoms",
+      "condition": "like_new",
+      "sold_price": 83,
+      "platform": "ebay",
+      "sold_date": "2024-12-05",
+      "size": "32"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Waterproof Hiking Boot",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 641,
+      "platform": "ebay",
+      "sold_date": "2024-08-30",
+      "size": "9"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Quilted Nylon Jacket",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 361,
+      "platform": "ebay",
+      "sold_date": "2024-11-08",
+      "size": "XL"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Terrex Hiker Tee",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 35,
+      "platform": "ebay",
+      "sold_date": "2024-11-14",
+      "size": "XS"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Cargo Fatigue Pants",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 358,
+      "platform": "grailed",
+      "sold_date": "2024-05-19",
+      "size": "32"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Surgent Cuffed Sweatpants",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 121,
+      "platform": "ebay",
+      "sold_date": "2024-04-09",
+      "size": "34"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Graphic Print Tee",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 150,
+      "platform": "depop",
+      "sold_date": "2024-10-19",
+      "size": "M"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Pointed-Toe Flats",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 45,
+      "platform": "ebay",
+      "sold_date": "2024-08-02",
+      "size": "9"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Workwear Shorts",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 108,
+      "platform": "poshmark",
+      "sold_date": "2024-12-03",
+      "size": "29"
+    },
+    {
+      "brand": "Ralph Lauren",
+      "item_name": "Active 100 Sneaker",
+      "category": "shoes",
+      "condition": "like_new",
+      "sold_price": 147,
+      "platform": "depop",
+      "sold_date": "2024-02-22",
+      "size": "10"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Montana Loose Fit Coat",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 104,
+      "platform": "depop",
+      "sold_date": "2024-04-07",
+      "size": "XL"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "Denim Shorts",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 311,
+      "platform": "grailed",
+      "sold_date": "2024-07-02",
+      "size": "32"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Quarter-Zip Fleece",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 48,
+      "platform": "poshmark",
+      "sold_date": "2024-06-01",
+      "size": "XL"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Bl\u00e5 Konst Slim-Fit Jeans",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 120,
+      "platform": "depop",
+      "sold_date": "2024-10-30",
+      "size": "34"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Quilted Nylon Jacket",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 312,
+      "platform": "depop",
+      "sold_date": "2024-02-16",
+      "size": "L"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Logo Beanie",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 83,
+      "platform": "poshmark",
+      "sold_date": "2024-08-25",
+      "size": "OS"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Colorblock Scarf",
+      "category": "accessories",
+      "condition": "new",
+      "sold_price": 87,
+      "platform": "ebay",
+      "sold_date": "2024-05-29",
+      "size": "M/L"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Canvas Tote Bag",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 29,
+      "platform": "ebay",
+      "sold_date": "2024-01-05",
+      "size": "OS"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Rebound Sneaker",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 18,
+      "platform": "depop",
+      "sold_date": "2024-06-30",
+      "size": "10"
+    },
+    {
+      "brand": "Zara",
+      "item_name": "Woven Straw Hat",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 24,
+      "platform": "depop",
+      "sold_date": "2024-03-12",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Trucker Denim Jacket",
+      "category": "outerwear",
+      "condition": "like_new",
+      "sold_price": 85,
+      "platform": "depop",
+      "sold_date": "2024-12-10",
+      "size": "L"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Half Dome Tee",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 197,
+      "platform": "ebay",
+      "sold_date": "2024-01-09",
+      "size": "L"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Class V Water Shorts",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 202,
+      "platform": "poshmark",
+      "sold_date": "2024-03-23",
+      "size": "28"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Etip Gloves",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 113,
+      "platform": "poshmark",
+      "sold_date": "2024-12-13",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Training Gloves",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 52,
+      "platform": "grailed",
+      "sold_date": "2024-07-09",
+      "size": "M/L"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Thermoball Eco Hoody",
+      "category": "outerwear",
+      "condition": "fair",
+      "sold_price": 101,
+      "platform": "depop",
+      "sold_date": "2024-07-24",
+      "size": "L"
+    },
+    {
+      "brand": "Supreme",
+      "item_name": "x Vans Sk8-Hi",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 168,
+      "platform": "grailed",
+      "sold_date": "2024-07-08",
+      "size": "9"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Core Flag Tee",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 86,
+      "platform": "ebay",
+      "sold_date": "2024-04-10",
+      "size": "M"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Relaxed Fit Flannel",
+      "category": "tops",
+      "condition": "good",
+      "sold_price": 37,
+      "platform": "poshmark",
+      "sold_date": "2024-02-01",
+      "size": "XS"
+    },
+    {
+      "brand": "Arc'teryx",
+      "item_name": "Proton FL Hoody",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 358,
+      "platform": "ebay",
+      "sold_date": "2024-08-19",
+      "size": "XL"
+    },
+    {
+      "brand": "Nike",
+      "item_name": "Sportswear Woven Track Pants",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 32,
+      "platform": "depop",
+      "sold_date": "2024-12-07",
+      "size": "30"
+    },
+    {
+      "brand": "Dr. Martens",
+      "item_name": "Floral Print Sock",
+      "category": "accessories",
+      "condition": "fair",
+      "sold_price": 35,
+      "platform": "grailed",
+      "sold_date": "2024-03-22",
+      "size": "S/M"
+    },
+    {
+      "brand": "Carhartt",
+      "item_name": "Long-Sleeve Pocket T-Shirt",
+      "category": "tops",
+      "condition": "like_new",
+      "sold_price": 73,
+      "platform": "poshmark",
+      "sold_date": "2024-02-19",
+      "size": "M"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Stretch Cotton Slim Jeans",
+      "category": "bottoms",
+      "condition": "new",
+      "sold_price": 484,
+      "platform": "poshmark",
+      "sold_date": "2024-07-31",
+      "size": "30"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Sunrise Sunnies",
+      "category": "accessories",
+      "condition": "like_new",
+      "sold_price": 52,
+      "platform": "ebay",
+      "sold_date": "2024-07-02",
+      "size": "S/M"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Cali Demi-Boot Jeans",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 54,
+      "platform": "poshmark",
+      "sold_date": "2024-03-26",
+      "size": "30"
+    },
+    {
+      "brand": "Adidas",
+      "item_name": "Terrex Hiker Tee",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 22,
+      "platform": "poshmark",
+      "sold_date": "2024-05-26",
+      "size": "S"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Half Dome Tee",
+      "category": "tops",
+      "condition": "fair",
+      "sold_price": 52,
+      "platform": "depop",
+      "sold_date": "2024-12-11",
+      "size": "M"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Cotton Twill Shorts",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 50,
+      "platform": "grailed",
+      "sold_date": "2024-10-09",
+      "size": "34"
+    },
+    {
+      "brand": "Patagonia",
+      "item_name": "Capilene Cool Lightweight Tee",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 173,
+      "platform": "depop",
+      "sold_date": "2024-01-09",
+      "size": "S"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Ultra 109 GTX",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 247,
+      "platform": "poshmark",
+      "sold_date": "2024-06-03",
+      "size": "11"
+    },
+    {
+      "brand": "Levi's",
+      "item_name": "Small Crossbody Bag",
+      "category": "accessories",
+      "condition": "good",
+      "sold_price": 23,
+      "platform": "poshmark",
+      "sold_date": "2024-11-05",
+      "size": "L/XL"
+    },
+    {
+      "brand": "Champion",
+      "item_name": "Satin Logo Shorts",
+      "category": "bottoms",
+      "condition": "fair",
+      "sold_price": 15,
+      "platform": "poshmark",
+      "sold_date": "2024-02-22",
+      "size": "34"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "Flannel Perfect Shirt",
+      "category": "tops",
+      "condition": "new",
+      "sold_price": 97,
+      "platform": "poshmark",
+      "sold_date": "2024-09-13",
+      "size": "XS"
+    },
+    {
+      "brand": "Madewell",
+      "item_name": "The Karin Chelsea Boot",
+      "category": "shoes",
+      "condition": "fair",
+      "sold_price": 38,
+      "platform": "depop",
+      "sold_date": "2024-12-27",
+      "size": "11"
+    },
+    {
+      "brand": "Free People",
+      "item_name": "Pilgrim Loafer",
+      "category": "shoes",
+      "condition": "new",
+      "sold_price": 179,
+      "platform": "ebay",
+      "sold_date": "2024-10-10",
+      "size": "10"
+    },
+    {
+      "brand": "Stone Island",
+      "item_name": "Regular Fit Chino",
+      "category": "bottoms",
+      "condition": "good",
+      "sold_price": 287,
+      "platform": "grailed",
+      "sold_date": "2024-03-22",
+      "size": "30"
+    },
+    {
+      "brand": "Tommy Hilfiger",
+      "item_name": "Classic Peacoat",
+      "category": "outerwear",
+      "condition": "good",
+      "sold_price": 86,
+      "platform": "depop",
+      "sold_date": "2024-08-17",
+      "size": "M"
+    },
+    {
+      "brand": "The North Face",
+      "item_name": "Thermoball Eco Hoody",
+      "category": "outerwear",
+      "condition": "new",
+      "sold_price": 406,
+      "platform": "depop",
+      "sold_date": "2024-12-31",
+      "size": "XL"
+    },
+    {
+      "brand": "Acne Studios",
+      "item_name": "Kobe Leather Loafer",
+      "category": "shoes",
+      "condition": "good",
+      "sold_price": 237,
+      "platform": "poshmark",
+      "sold_date": "2024-08-28",
+      "size": "12"
+    }
+  ]
