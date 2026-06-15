@@ -17,6 +17,7 @@ export type ListingMatch = {
   sold_date: string;
   size: string | null;
   similarity: number;
+  listing_url: string | null;
 };
 
 export type PriceStats = {
@@ -42,7 +43,7 @@ function percentile(sorted: number[], p: number) {
   return sorted[lower] + (sorted[upper] - sorted[lower]) * (idx - lower);
 }
 
-function computePriceStats(prices: number[]): PriceStats {
+export function computePriceStats(prices: number[]): PriceStats {
   const count = prices.length;
 
   if (count === 0) {
@@ -91,11 +92,18 @@ export async function getEstimate(
       platform,
       sold_date,
       size,
+      listing_url,
       similarity(item_name, ${itemName}) AS similarity
     FROM listings
-    WHERE similarity(item_name, ${itemName}) > 0.15
-      AND LOWER(brand) = LOWER(${brand})
-      AND condition = ${condition}
+    WHERE (
+      item_name ILIKE ${"%" + itemName + "%"}
+      OR similarity(item_name, ${itemName}) > 0.1
+    )
+    AND (
+      LOWER(brand) = LOWER(${brand})
+      OR LOWER(brand) ILIKE ${"%" + brand + "%"}
+    )
+    AND condition = ${condition}
     ORDER BY similarity DESC
     LIMIT 20
   `;

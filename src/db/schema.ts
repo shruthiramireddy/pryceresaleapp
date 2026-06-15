@@ -18,6 +18,8 @@ export const listings = pgTable("listings", {
   platform: text("platform").notNull(),
   sold_date: date("sold_date").notNull(),
   size: text("size"),
+  external_id: text("external_id").unique(),
+  listing_url: text("listing_url"),
 });
 
 export const searches = pgTable("searches", {

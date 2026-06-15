@@ -44,8 +44,14 @@ export function CompCard({ comp }: CompCardProps) {
     PLATFORM_STYLES[comp.platform.toLowerCase()] ??
     "bg-zinc-100 text-zinc-700";
 
-  return (
-    <Card size="sm" className="h-full border-zinc-200 shadow-none">
+  const card = (
+    <Card
+      size="sm"
+      className={cn(
+        "h-full border-zinc-200 shadow-none",
+        comp.listing_url && "transition-colors hover:border-zinc-300 hover:bg-zinc-50",
+      )}
+    >
       <CardHeader className="gap-2">
         <div className="flex items-start justify-between gap-2">
           <CardTitle className="line-clamp-2 text-sm leading-snug">
@@ -60,7 +66,7 @@ export function CompCard({ comp }: CompCardProps) {
         </div>
         <CardDescription className="text-xs">{comp.brand}</CardDescription>
       </CardHeader>
-      <CardContent className="space-y-2 text-xs text-zinc-600">
+      <CardContent className="flex h-full flex-col space-y-2 text-xs text-zinc-600">
         <p className="text-xl font-semibold tracking-tight text-zinc-900">
           {formatPrice(comp.sold_price)}
         </p>
@@ -78,7 +84,27 @@ export function CompCard({ comp }: CompCardProps) {
         <p className="text-zinc-500">
           {Math.round(comp.similarity * 100)}% match
         </p>
+        {comp.listing_url && (
+          <p className="mt-auto pt-1 text-right text-xs text-blue-600">
+            View listing →
+          </p>
+        )}
       </CardContent>
     </Card>
   );
+
+  if (comp.listing_url) {
+    return (
+      <a
+        href={comp.listing_url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block h-full rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+      >
+        {card}
+      </a>
+    );
+  }
+
+  return card;
 }

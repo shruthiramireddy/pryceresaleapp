@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { Suspense, useCallback, useEffect, useMemo, useState } from "react";
 import { CompCard } from "@/components/CompCard";
@@ -33,16 +32,19 @@ type EstimateSuccess = {
   stats: PriceStats;
   aiSummary: AiSummary | null;
   cached: boolean;
+  liveData: boolean;
 };
 
 type EstimateInsufficient = {
   insufficient: true;
   count: number;
+  liveData?: boolean;
 };
 
-type EstimateError = {
-  type: "network" | "api";
-  message: string;
+type UrlSearch = {
+  brand: string;
+  itemName: string;
+  condition: Condition;
 };
 
 function formatPrice(value: number) {
@@ -61,12 +63,6 @@ function isCondition(value: string | null): value is Condition {
     value === "fair"
   );
 }
-
-type UrlSearch = {
-  brand: string;
-  itemName: string;
-  condition: Condition;
-};
 
 function getUrlSearch(searchParams: URLSearchParams): UrlSearch | null {
   const brandParam = searchParams.get("brand");
@@ -87,171 +83,40 @@ function getUrlSearch(searchParams: URLSearchParams): UrlSearch | null {
 function ResultsSkeleton() {
   return (
     <section
-      className="space-y-8"
+      className="space-y-10"
       aria-busy="true"
       aria-label="Loading price estimate"
     >
-      <div>
-        <Skeleton className="mb-4 h-4 w-24" />
-        <div className="grid grid-cols-3 gap-4">
-          {Array.from({ length: 3 }).map((_, index) => (
-            <div
-              key={index}
-              className="space-y-2 rounded-xl border border-zinc-200 p-4"
-            >
-              <Skeleton className="h-4 w-10" />
-              <Skeleton className="h-9 w-20" />
-            </div>
-          ))}
-        </div>
-      </div>
-
-      <Card className="border-zinc-200 shadow-none">
-        <CardHeader className="space-y-2">
-          <Skeleton className="h-6 w-44" />
-          <Skeleton className="h-4 w-56" />
-        </CardHeader>
-        <CardContent className="space-y-4">
-          <div className="flex items-center gap-3">
+      <div className="grid grid-cols-3 gap-4">
+        {Array.from({ length: 3 }).map((_, index) => (
+          <div
+            key={index}
+            className="flex flex-col items-center gap-2 rounded-xl border border-zinc-200 bg-white p-6"
+          >
             <Skeleton className="h-9 w-24" />
-            <Skeleton className="h-6 w-28 rounded-full" />
+            <Skeleton className="h-4 w-16" />
           </div>
-          <Skeleton className="h-4 w-full" />
-          <Skeleton className="h-4 w-5/6" />
-          <div className="space-y-2">
-            <Skeleton className="h-4 w-full" />
-            <Skeleton className="h-4 w-4/5" />
-            <Skeleton className="h-4 w-3/5" />
-          </div>
-        </CardContent>
-      </Card>
-
-      <div>
-        <Skeleton className="mb-4 h-4 w-36" />
-        <Skeleton className="h-56 w-full rounded-xl" />
+        ))}
       </div>
-
-      <div>
-        <Skeleton className="mb-4 h-4 w-44" />
-        <div className="grid grid-cols-2 gap-3 lg:grid-cols-3">
-          {Array.from({ length: 6 }).map((_, index) => (
-            <Skeleton key={index} className="h-36 rounded-xl" />
-          ))}
-        </div>
-      </div>
+      <Skeleton className="h-64 w-full rounded-xl" />
     </section>
   );
 }
 
-function InsufficientState({
-  count,
-  brand,
-  itemName,
-  condition,
-}: {
-  count: number;
-  brand: string;
-  itemName: string;
-  condition: Condition;
-}) {
-  const conditionLabel = condition.replace(/_/g, " ");
-
-  return (
-    <Card className="border-amber-200 bg-amber-50 shadow-none">
-      <CardHeader>
-        <CardTitle className="text-lg text-amber-950">
-          Not enough comparable sales
-        </CardTitle>
-        <CardDescription className="text-amber-800/80">
-          Found {count} listing{count === 1 ? "" : "s"} for{" "}
-          <span className="font-medium text-amber-950">
-            {brand} · {itemName}
-          </span>{" "}
-          in <span className="capitalize">{conditionLabel}</span> condition. We
-          need at least 3 to estimate a reliable price range.
-        </CardDescription>
-      </CardHeader>
-      <CardContent className="space-y-3 text-sm text-amber-900">
-        <p className="font-medium">Try adjusting your search:</p>
-        <ul className="space-y-2">
-          <li className="flex gap-2">
-            <span className="text-amber-600">•</span>
-            <span>Use a shorter or more generic item name (e.g. &quot;501 Jeans&quot; instead of a full product title)</span>
-          </li>
-          <li className="flex gap-2">
-            <span className="text-amber-600">•</span>
-            <span>Try a nearby condition — many brands only have comps for &quot;good&quot; or &quot;like new&quot;</span>
-          </li>
-          <li className="flex gap-2">
-            <span className="text-amber-600">•</span>
-            <span>Double-check the brand spelling</span>
-          </li>
-        </ul>
-      </CardContent>
-    </Card>
-  );
-}
-
-function ErrorState({
-  error,
-  onRetry,
-}: {
-  error: EstimateError;
-  onRetry: () => void;
-}) {
-  const isNetwork = error.type === "network";
-
-  return (
-    <Card className="border-red-200 bg-red-50 shadow-none">
-      <CardHeader>
-        <CardTitle className="text-lg text-red-950">
-          {isNetwork ? "Connection problem" : "Something went wrong"}
-        </CardTitle>
-        <CardDescription className="text-red-800/80">
-          {isNetwork
-            ? "We couldn't reach the server. Check your internet connection and try again."
-            : error.message}
-        </CardDescription>
-      </CardHeader>
-      <CardContent>
-        <Button
-          type="button"
-          variant="outline"
-          className="border-red-300 bg-white text-red-900 hover:bg-red-100"
-          onClick={onRetry}
-        >
-          Try again
-        </Button>
-      </CardContent>
-    </Card>
-  );
-}
-
-function parseEstimateError(submitError: unknown): EstimateError {
-  if (
-    submitError instanceof TypeError ||
-    (submitError instanceof Error && submitError.message === "Failed to fetch")
-  ) {
-    return {
-      type: "network",
-      message: "Network request failed.",
-    };
+function LiveDataBadge({ liveData }: { liveData: boolean }) {
+  if (liveData) {
+    return (
+      <Badge className="border-emerald-200 bg-emerald-50 text-emerald-700 hover:bg-emerald-50">
+        Live eBay data
+      </Badge>
+    );
   }
 
-  if (
-    submitError instanceof Error &&
-    submitError.message !== "Something went wrong. Please try again."
-  ) {
-    return {
-      type: "api",
-      message: submitError.message,
-    };
-  }
-
-  return {
-    type: "api",
-    message: "Something went wrong. Please try again.",
-  };
+  return (
+    <Badge variant="secondary" className="bg-zinc-100 text-zinc-600">
+      Seeded data
+    </Badge>
+  );
 }
 
 function EstimatePage({ initialSearch }: { initialSearch: UrlSearch | null }) {
@@ -261,7 +126,7 @@ function EstimatePage({ initialSearch }: { initialSearch: UrlSearch | null }) {
     initialSearch?.condition ?? "good",
   );
   const [loading, setLoading] = useState(Boolean(initialSearch));
-  const [error, setError] = useState<EstimateError | null>(null);
+  const [error, setError] = useState<string | null>(null);
   const [result, setResult] = useState<
     EstimateSuccess | EstimateInsufficient | null
   >(null);
@@ -293,15 +158,17 @@ function EstimatePage({ initialSearch }: { initialSearch: UrlSearch | null }) {
             "error" in data &&
             typeof data.error === "string"
               ? data.error
-              : response.status >= 500
-                ? "The server encountered an error. Please try again shortly."
-                : "Invalid request. Check your search and try again.";
+              : "Something went wrong. Please try again.";
           throw new Error(message);
         }
 
         setResult(data as EstimateSuccess | EstimateInsufficient);
       } catch (submitError) {
-        setError(parseEstimateError(submitError));
+        setError(
+          submitError instanceof Error
+            ? submitError.message
+            : "Something went wrong. Please try again.",
+        );
       } finally {
         setLoading(false);
       }
@@ -335,38 +202,24 @@ function EstimatePage({ initialSearch }: { initialSearch: UrlSearch | null }) {
   const insufficientResult =
     result && "insufficient" in result ? result : null;
 
-  function handleRetry() {
-    void runEstimate({ brand, itemName, condition });
-  }
-
   return (
-    <div className="min-h-full bg-white text-zinc-900">
-      <main className="mx-auto flex w-full max-w-2xl flex-col gap-10 px-6 py-16">
-        <header className="space-y-2">
-          <div className="flex items-start justify-between gap-4">
-            <div className="space-y-2">
-              <h1 className="text-4xl font-semibold tracking-tight">Pryce</h1>
-              <p className="text-lg text-zinc-500">
-                Find out what your clothes are actually worth
-              </p>
-            </div>
-            <Link
-              href="/history"
-              className="shrink-0 text-sm text-zinc-500 transition-colors hover:text-zinc-900"
-            >
-              History
-            </Link>
-          </div>
+    <div className="min-h-full font-sans text-zinc-900">
+      <main className="mx-auto flex w-full max-w-2xl flex-col gap-12 px-6 py-12">
+        <header className="space-y-2 text-center sm:text-left">
+          <h1 className="text-4xl font-bold tracking-tight">Pryce</h1>
+          <p className="text-lg text-zinc-500">
+            Find out what your clothes are actually worth
+          </p>
         </header>
 
-        <Card className="border-zinc-200 shadow-none">
-          <CardHeader>
+        <Card className="rounded-xl border border-zinc-200 bg-white p-1 shadow-none">
+          <CardHeader className="px-6 pt-6">
             <CardTitle className="text-lg">Search sold listings</CardTitle>
             <CardDescription>
               Compare recent sales to estimate your resale price.
             </CardDescription>
           </CardHeader>
-          <CardContent>
+          <CardContent className="px-6 pb-6">
             <form onSubmit={handleSubmit} className="space-y-5">
               <div className="space-y-2">
                 <label htmlFor="brand" className="text-sm font-medium">
@@ -429,79 +282,83 @@ function EstimatePage({ initialSearch }: { initialSearch: UrlSearch | null }) {
         {loading && <ResultsSkeleton />}
 
         {error && !loading && (
-          <ErrorState error={error} onRetry={handleRetry} />
+          <div
+            role="alert"
+            className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700"
+          >
+            {error}
+          </div>
         )}
 
         {insufficientResult && !loading && (
-          <InsufficientState
-            count={insufficientResult.count}
-            brand={brand}
-            itemName={itemName}
-            condition={condition}
-          />
+          <div className="rounded-xl border border-zinc-200 bg-zinc-50 px-4 py-6 text-center text-sm text-zinc-600">
+            Not enough data yet for this item — try a more common brand or item
+            name.
+          </div>
         )}
 
         {successResult && !loading && (
-          <section className="space-y-8">
-            <div>
-              <h2 className="mb-4 text-sm font-medium uppercase tracking-wide text-zinc-500">
-                Price range
+          <section className="space-y-10">
+            <div className="flex items-center justify-between gap-4">
+              <h2 className="text-sm font-medium uppercase tracking-wide text-zinc-500">
+                Price estimate
               </h2>
-              <div className="grid grid-cols-3 gap-4">
-                <div className="rounded-xl border border-zinc-200 p-4">
-                  <p className="text-sm text-zinc-500">P10</p>
-                  <p className="mt-1 text-3xl font-semibold tracking-tight">
-                    {formatPrice(successResult.stats.p10)}
-                  </p>
-                </div>
-                <div className="rounded-xl border border-zinc-200 bg-zinc-50 p-4">
-                  <p className="text-sm text-zinc-500">Median</p>
-                  <p className="mt-1 text-3xl font-semibold tracking-tight">
-                    {formatPrice(successResult.stats.median)}
-                  </p>
-                </div>
-                <div className="rounded-xl border border-zinc-200 p-4">
-                  <p className="text-sm text-zinc-500">P90</p>
-                  <p className="mt-1 text-3xl font-semibold tracking-tight">
-                    {formatPrice(successResult.stats.p90)}
-                  </p>
-                </div>
+              <LiveDataBadge liveData={successResult.liveData} />
+            </div>
+
+            <div className="grid grid-cols-3 gap-4">
+              <div className="flex flex-col items-center rounded-xl border border-zinc-200 bg-white p-6 text-center">
+                <p className="text-[36px] font-semibold leading-none tracking-tight">
+                  {formatPrice(successResult.stats.p10)}
+                </p>
+                <p className="mt-2 text-sm text-zinc-500">Low</p>
+              </div>
+              <div className="flex flex-col items-center rounded-xl border border-zinc-300 bg-zinc-50 p-6 text-center">
+                <p className="text-[36px] font-semibold leading-none tracking-tight">
+                  {formatPrice(successResult.stats.median)}
+                </p>
+                <p className="mt-2 text-sm text-zinc-500">Fair Market</p>
+              </div>
+              <div className="flex flex-col items-center rounded-xl border border-zinc-200 bg-white p-6 text-center">
+                <p className="text-[36px] font-semibold leading-none tracking-tight">
+                  {formatPrice(successResult.stats.p90)}
+                </p>
+                <p className="mt-2 text-sm text-zinc-500">High</p>
               </div>
             </div>
 
             {successResult.aiSummary && (
-              <Card className="border-zinc-200 shadow-none">
+              <Card className="rounded-xl border-emerald-200 bg-emerald-50/50 shadow-none">
                 <CardHeader>
-                  <CardTitle className="text-lg">AI recommendation</CardTitle>
+                  <CardTitle className="text-lg">Recommended price</CardTitle>
                   <CardDescription>
                     Based on {successResult.stats.count} comparable sales
-                    {successResult.cached ? " (cached)" : ""}
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="flex flex-wrap items-center gap-3">
-                    <p className="text-3xl font-semibold tracking-tight">
+                    <p className="text-[36px] font-semibold leading-none tracking-tight text-emerald-700">
                       {formatPrice(
                         successResult.aiSummary.price_recommendation,
                       )}
                     </p>
-                    <Badge variant="secondary" className="capitalize">
+                    <Badge
+                      variant="secondary"
+                      className="capitalize bg-white/80"
+                    >
                       {successResult.aiSummary.confidence} confidence
                     </Badge>
                   </div>
 
-                  <p className="text-zinc-600">
+                  <p className="text-zinc-700">
                     {successResult.aiSummary.market_context}
                   </p>
 
-                  <ul className="space-y-2 text-sm text-zinc-700">
+                  <ol className="list-decimal space-y-2 pl-5 text-sm text-zinc-700">
                     {successResult.aiSummary.sell_tips.map((tip) => (
-                      <li key={tip} className="flex gap-2">
-                        <span className="text-zinc-400">•</span>
-                        <span>{tip}</span>
-                      </li>
+                      <li key={tip}>{tip}</li>
                     ))}
-                  </ul>
+                  </ol>
                 </CardContent>
               </Card>
             )}
@@ -550,8 +407,8 @@ export default function Home() {
   return (
     <Suspense
       fallback={
-        <div className="min-h-full bg-white px-6 py-16">
-          <div className="mx-auto flex w-full max-w-2xl flex-col gap-10">
+        <div className="min-h-full bg-white px-6 py-12 font-sans">
+          <div className="mx-auto flex w-full max-w-2xl flex-col gap-12">
             <div className="space-y-2">
               <Skeleton className="h-10 w-32" />
               <Skeleton className="h-6 w-72" />
