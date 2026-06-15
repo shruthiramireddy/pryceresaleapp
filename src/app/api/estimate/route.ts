@@ -3,6 +3,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { db } from "@/db/index";
 import { searches } from "@/db/schema";
+import { apiError, formatZodError } from "@/lib/api-errors";
 import { fetchEbaySoldListings, type EbaySoldListing } from "@/lib/ebay";
 import {
   computePriceStats,
@@ -12,9 +13,11 @@ import {
 } from "@/lib/estimate";
 
 const estimateRequestSchema = z.object({
-  brand: z.string().min(1),
-  itemName: z.string().min(1),
-  condition: z.enum(["new", "like_new", "good", "fair"]),
+  brand: z.string().min(1, "Brand is required"),
+  itemName: z.string().min(1, "Item name is required"),
+  condition: z.enum(["new", "like_new", "good", "fair"], {
+    message: "Condition must be new, like_new, good, or fair",
+  }),
   category: z.string().optional(),
   size: z.string().optional(),
 });
@@ -79,14 +82,17 @@ async function saveSearch(
 
 export async function POST(request: Request) {
   try {
-    const body = await request.json();
+    let body: unknown;
+    try {
+      body = await request.json();
+    } catch {
+      return apiError("Invalid JSON body", 400);
+    }
+
     const parsed = estimateRequestSchema.safeParse(body);
 
     if (!parsed.success) {
-      return NextResponse.json(
-        { error: parsed.error.flatten() },
-        { status: 400 },
-      );
+      return apiError(formatZodError(parsed.error), 400);
     }
 
     const { brand, itemName, condition } = parsed.data;
@@ -117,11 +123,10 @@ export async function POST(request: Request) {
     const result = await getEstimate({ brand, itemName, condition });
 
     if (result.stats.count < 1) {
-      return NextResponse.json({
-        insufficient: true,
-        count: result.stats.count,
-        liveData: false,
-      });
+      return apiError(
+        "Not enough comparable sales found for this search",
+        404,
+      );
     }
 
     if (cached) {
@@ -146,6 +151,6 @@ export async function POST(request: Request) {
   } catch (error) {
     const message =
       error instanceof Error ? error.message : "Internal server error";
-    return NextResponse.json({ error: message }, { status: 500 });
+    return apiError(message, 500);
   }
 }

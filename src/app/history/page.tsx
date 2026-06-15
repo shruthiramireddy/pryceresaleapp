@@ -1,7 +1,7 @@
-import { desc } from "drizzle-orm";
+export const dynamic = "force-dynamic";
+
 import Link from "next/link";
-import { db } from "@/db/index";
-import { searches } from "@/db/schema";
+import { getRecentSearches } from "@/lib/searches";
 
 function formatRelativeTime(date: Date) {
   const seconds = Math.floor((Date.now() - date.getTime()) / 1000);
@@ -47,11 +47,7 @@ function formatCondition(condition: string) {
 }
 
 export default async function HistoryPage() {
-  const recentSearches = await db
-    .select()
-    .from(searches)
-    .orderBy(desc(searches.created_at))
-    .limit(20);
+  const recentSearches = await getRecentSearches(20);
 
   return (
     <div className="min-h-full bg-white text-zinc-900">

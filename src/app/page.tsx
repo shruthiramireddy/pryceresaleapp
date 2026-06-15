@@ -51,7 +51,7 @@ function LoadingSpinner() {
 function ResultsSkeleton() {
   return (
     <section
-      className="mx-auto mt-12 max-w-2xl space-y-4 px-6"
+      className="mt-12 space-y-4 border-t-2 border-black pt-10"
       aria-busy="true"
       aria-label="Loading price estimate"
     >
@@ -59,11 +59,11 @@ function ResultsSkeleton() {
         {Array.from({ length: 3 }).map((_, index) => (
           <div
             key={index}
-            className="h-32 animate-pulse rounded-2xl bg-gray-200"
+            className="h-32 animate-pulse rounded-lg bg-gray-200"
           />
         ))}
       </div>
-      <div className="h-48 w-full animate-pulse rounded-2xl bg-gray-200" />
+      <div className="h-48 w-full animate-pulse rounded-lg bg-gray-200" />
     </section>
   );
 }
@@ -134,6 +134,11 @@ function PrycePageContent({
           throw new Error("The server returned an invalid response.");
         }
 
+        if (response.status === 404) {
+          setResult({ insufficient: true, count: 0 });
+          return;
+        }
+
         if (!response.ok) {
           const message =
             typeof data === "object" &&
@@ -145,7 +150,7 @@ function PrycePageContent({
           throw new Error(message);
         }
 
-        setResult(data as EstimateSuccess | EstimateInsufficient);
+        setResult(data as EstimateSuccess);
       } catch (submitError) {
         setError(
           submitError instanceof Error
@@ -185,14 +190,18 @@ function PrycePageContent({
   const insufficientResult =
     result && "insufficient" in result ? result : null;
 
+  const labelClassName =
+    "mb-2 block text-xs font-black uppercase tracking-widest";
   const inputClassName =
-    "w-full rounded-xl border-2 border-black bg-white p-3 text-lg font-medium text-black outline-none transition-colors focus:border-[#FF4D00]";
+    "w-full rounded-lg border-2 border-black bg-white p-3 text-lg font-medium text-black shadow-none outline-none transition-colors focus:border-[#FF4D00]";
+  const sectionHeadingClassName =
+    "mb-4 text-lg font-black uppercase tracking-tight";
 
   return (
     <div className="min-h-full bg-white font-medium text-black">
       {/* Header */}
-      <header className="w-full border-b-2 border-black bg-white">
-        <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-5">
+      <header className="w-full bg-white">
+        <div className="mx-auto flex max-w-3xl items-center justify-between px-6 py-5">
           <div className="flex items-center gap-1">
             <span className="text-2xl font-black tracking-tight sm:text-3xl">
               PRYCE
@@ -210,28 +219,26 @@ function PrycePageContent({
             History
           </Link>
         </div>
+        <hr className="border-gray-200" />
       </header>
 
-      {/* Hero */}
-      <section className="mx-auto max-w-2xl px-6 pt-12 text-center">
-        <h1 className="text-4xl font-black leading-tight tracking-tight sm:text-5xl md:text-6xl">
-          Find out what your{" "}
-          <span style={{ color: ACCENT }}>clothes</span> are worth.
-        </h1>
-        <p className="mt-4 text-base text-zinc-500 sm:text-lg">
-          Real sold prices from eBay, updated live.
-        </p>
-      </section>
+      <main className="mx-auto max-w-3xl px-6 pb-16">
+        {/* Hero */}
+        <section className="mt-16 text-left">
+          <h1 className="text-6xl font-black leading-none tracking-tight md:text-8xl">
+            Find out what your{" "}
+            <span style={{ color: ACCENT }}>clothes</span> are worth.
+          </h1>
+          <p className="mt-4 text-base text-gray-500 sm:text-lg">
+            Real sold prices from eBay, updated live.
+          </p>
+        </section>
 
-      {/* Search card */}
-      <section className="mx-auto mt-8 max-w-xl px-6">
-        <div className="rounded-2xl border-2 border-black bg-white p-8">
+        {/* Search form */}
+        <section className="mt-10">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
-              <label
-                htmlFor="brand"
-                className="mb-2 block text-xs font-black uppercase tracking-widest"
-              >
+              <label htmlFor="brand" className={labelClassName}>
                 Brand
               </label>
               <input
@@ -246,10 +253,7 @@ function PrycePageContent({
             </div>
 
             <div>
-              <label
-                htmlFor="itemName"
-                className="mb-2 block text-xs font-black uppercase tracking-widest"
-              >
+              <label htmlFor="itemName" className={labelClassName}>
                 Item name
               </label>
               <input
@@ -264,10 +268,7 @@ function PrycePageContent({
             </div>
 
             <div>
-              <label
-                htmlFor="condition"
-                className="mb-2 block text-xs font-black uppercase tracking-widest"
-              >
+              <label htmlFor="condition" className={labelClassName}>
                 Condition
               </label>
               <select
@@ -285,128 +286,136 @@ function PrycePageContent({
               </select>
             </div>
 
-            <button
-              type="submit"
-              disabled={loading}
-              className="flex w-full items-center justify-center gap-3 rounded-xl py-4 text-xl font-black text-white transition-opacity disabled:opacity-70"
-              style={{ backgroundColor: ACCENT }}
-            >
-              {loading ? (
-                <>
-                  <LoadingSpinner />
-                  <span>SEARCHING...</span>
-                </>
-              ) : (
-                "GET PRICE →"
-              )}
-            </button>
+            <div>
+              <button
+                type="submit"
+                disabled={loading}
+                className="flex w-full items-center justify-center gap-3 rounded-lg py-4 text-xl font-black text-white transition-opacity disabled:opacity-70"
+                style={{ backgroundColor: ACCENT }}
+              >
+                {loading ? (
+                  <>
+                    <LoadingSpinner />
+                    <span>SEARCHING...</span>
+                  </>
+                ) : (
+                  "GET PRICE →"
+                )}
+              </button>
+              <p className="mt-2 text-sm text-gray-500">
+                Searches real eBay sold listings
+              </p>
+            </div>
           </form>
-        </div>
-      </section>
-
-      {/* Loading */}
-      {loading && <ResultsSkeleton />}
-
-      {/* Error */}
-      {error && !loading && (
-        <div
-          role="alert"
-          className="mx-auto mt-8 max-w-xl rounded-2xl border-2 border-red-500 p-6"
-        >
-          <p className="text-xl font-black text-red-500">Something went wrong.</p>
-          <p className="mt-2 text-sm text-gray-600">{error}</p>
-        </div>
-      )}
-
-      {/* Insufficient */}
-      {insufficientResult && !loading && (
-        <div className="mx-auto mt-12 max-w-xl px-6 text-center">
-          <p className="text-6xl" aria-hidden="true">
-            😞
-          </p>
-          <p className="mt-4 text-2xl font-black">
-            Not enough data for this search.
-          </p>
-          <p className="mt-2 text-gray-500">
-            Try a more common brand or item name — like Levi&apos;s jeans or Nike
-            hoodie.
-          </p>
-        </div>
-      )}
-
-      {/* Results */}
-      {successResult && !loading && (
-        <section className="mx-auto mt-12 max-w-2xl space-y-10 px-6 pb-16">
-          {/* Live data banner */}
-          <div className="flex justify-center">
-            {successResult.liveData ? (
-              <span className="rounded-full bg-green-100 px-4 py-1.5 text-xs font-black uppercase tracking-wide text-green-700">
-                ● Live eBay data
-              </span>
-            ) : (
-              <span className="rounded-full bg-[#F5F5F5] px-4 py-1.5 text-xs font-black uppercase tracking-wide text-zinc-500">
-                ● Cached data
-              </span>
-            )}
-          </div>
-
-          {/* Stat cards */}
-          <div className="grid grid-cols-3 gap-4">
-            <div className="rounded-2xl border-2 border-black bg-[#F5F5F5] p-6 text-center">
-              <p className="text-xs font-black uppercase tracking-widest text-zinc-500">
-                Low
-              </p>
-              <p className="mt-3 text-4xl font-black leading-none">
-                {formatPrice(successResult.stats.p10)}
-              </p>
-            </div>
-
-            <div
-              className="rounded-2xl border-2 border-black p-6 text-center text-white"
-              style={{ backgroundColor: ACCENT }}
-            >
-              <p className="text-xs font-black uppercase tracking-widest text-white/80">
-                Fair Market
-              </p>
-              <p className="mt-3 text-4xl font-black leading-none">
-                {formatPrice(successResult.stats.median)}
-              </p>
-            </div>
-
-            <div className="rounded-2xl border-2 border-black bg-[#F5F5F5] p-6 text-center">
-              <p className="text-xs font-black uppercase tracking-widest text-zinc-500">
-                High
-              </p>
-              <p className="mt-3 text-4xl font-black leading-none">
-                {formatPrice(successResult.stats.p90)}
-              </p>
-            </div>
-          </div>
-
-          {/* Chart */}
-          <div>
-            <h2 className="mb-4 text-sm font-black uppercase tracking-widest">
-              Price distribution
-            </h2>
-            <PriceChart
-              comps={successResult.comps}
-              stats={successResult.stats}
-            />
-          </div>
-
-          {/* Comps grid */}
-          <div>
-            <h2 className="mb-4 text-sm font-black uppercase tracking-widest">
-              Sold listings ({successResult.comps.length})
-            </h2>
-            <div className="grid grid-cols-2 gap-3 lg:grid-cols-3">
-              {successResult.comps.map((comp) => (
-                <CompCard key={comp.id} comp={comp} />
-              ))}
-            </div>
-          </div>
         </section>
-      )}
+
+        {/* Loading */}
+        {loading && <ResultsSkeleton />}
+
+        {/* Error */}
+        {error && !loading && (
+          <div
+            role="alert"
+            className="mt-8 rounded-lg border-2 border-red-500 p-6"
+          >
+            <p className="text-xl font-black text-red-500">
+              Something went wrong.
+            </p>
+            <p className="mt-2 text-sm text-gray-600">{error}</p>
+          </div>
+        )}
+
+        {/* Insufficient */}
+        {insufficientResult && !loading && (
+          <div className="mt-12 text-center">
+            <p className="text-6xl" aria-hidden="true">
+              😞
+            </p>
+            <p className="mt-4 text-2xl font-black">
+              Not enough data for this search.
+            </p>
+            <p className="mt-2 text-gray-500">
+              Try a more common brand or item name — like Levi&apos;s jeans or
+              Nike hoodie.
+            </p>
+          </div>
+        )}
+
+        {/* Results */}
+        {successResult && !loading && (
+          <section className="mt-12 space-y-10 border-t-2 border-black pt-10">
+            {successResult.liveData ? (
+              <div>
+                <span className="rounded-full bg-green-100 px-4 py-1.5 text-xs font-black uppercase tracking-wide text-green-700">
+                  ● Live eBay data
+                </span>
+              </div>
+            ) : (
+              <div>
+                <span className="rounded-full bg-[#F5F5F5] px-4 py-1.5 text-xs font-black uppercase tracking-wide text-gray-500">
+                  ● Cached data
+                </span>
+              </div>
+            )}
+
+            <div>
+              <p className="mb-4 text-xs font-black uppercase tracking-widest text-gray-400">
+                Here&apos;s what it&apos;s worth
+              </p>
+              <div className="grid grid-cols-3 gap-4">
+                <div className="rounded-lg border-2 border-black bg-[#F5F5F5] p-6 text-center">
+                  <p className="text-xs font-black uppercase tracking-widest text-gray-500">
+                    Low
+                  </p>
+                  <p className="mt-3 text-4xl font-black leading-none">
+                    {formatPrice(successResult.stats.p10)}
+                  </p>
+                </div>
+
+                <div
+                  className="rounded-lg border-2 border-black py-8 text-center text-white"
+                  style={{ backgroundColor: ACCENT }}
+                >
+                  <p className="text-xs font-black uppercase tracking-widest text-white/80">
+                    Fair Market
+                  </p>
+                  <p className="mt-3 text-4xl font-black leading-none">
+                    {formatPrice(successResult.stats.median)}
+                  </p>
+                </div>
+
+                <div className="rounded-lg border-2 border-black bg-[#F5F5F5] p-6 text-center">
+                  <p className="text-xs font-black uppercase tracking-widest text-gray-500">
+                    High
+                  </p>
+                  <p className="mt-3 text-4xl font-black leading-none">
+                    {formatPrice(successResult.stats.p90)}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h2 className={sectionHeadingClassName}>Price distribution</h2>
+              <PriceChart
+                comps={successResult.comps}
+                stats={successResult.stats}
+              />
+            </div>
+
+            <div>
+              <h2 className={sectionHeadingClassName}>
+                Sold listings ({successResult.comps.length})
+              </h2>
+              <div className="grid grid-cols-2 gap-3 lg:grid-cols-3">
+                {successResult.comps.map((comp) => (
+                  <CompCard key={comp.id} comp={comp} />
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+      </main>
     </div>
   );
 }
@@ -416,16 +425,16 @@ export default function Home() {
     <Suspense
       fallback={
         <div className="min-h-full bg-white px-6 py-12">
-          <div className="mx-auto max-w-2xl space-y-4">
+          <div className="mx-auto max-w-3xl space-y-4">
             <div className="grid grid-cols-3 gap-4">
               {Array.from({ length: 3 }).map((_, index) => (
                 <div
                   key={index}
-                  className="h-32 animate-pulse rounded-2xl bg-gray-200"
+                  className="h-32 animate-pulse rounded-lg bg-gray-200"
                 />
               ))}
             </div>
-            <div className="h-48 w-full animate-pulse rounded-2xl bg-gray-200" />
+            <div className="h-48 w-full animate-pulse rounded-lg bg-gray-200" />
           </div>
         </div>
       }
